@@ -48,4 +48,5 @@ CREATE TABLE linea_pedido (
     FOREIGN KEY (producto_id) REFERENCES producto(id)
 );
 
-/*- ./MySql/vegaburguer.sql:/docker-entrypoint-initdb.d/vegaburguer.sql*/
+INSERT INTO dependiente (id, name, email, password, image_path, enabled, is_admin)
+VALUES ('admin-001', 'admin', 'admin@vegaburguer.com', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', '', 1, 1);
