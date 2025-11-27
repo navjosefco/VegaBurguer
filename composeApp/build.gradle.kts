@@ -61,6 +61,7 @@ kotlin {
             implementation("org.apache.derby:derby:10.16.1.1")
             //Agregamos la dependencia de mysql para que java pueda reconocer la base de datos
             implementation("mysql:mysql-connector-java:8.0.33")
+            implementation("org.jasypt:jasypt:1.9.3")
         }
     }
 }

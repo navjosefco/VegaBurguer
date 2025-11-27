@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 public class DependienteDao implements IDao<Dependiente> {
     private DataBaseConnection conn;
-    private final String table_name = "DEPENDIENTE";
+    private final String table_name = "dependiente";
     private final String selectall = "select * from " + table_name;
     private final String selectbyid = "select * from " + table_name + " where id=?";
     private final String findbyname = "select * from " + table_name + " where name=?";
