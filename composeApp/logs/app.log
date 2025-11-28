@@ -1099,3 +1099,27 @@ nov 27, 2025 1:43:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestruct
 INFORMACIÓN: Ejecutando SQL: UPDATE dependiente SET name = ?, email = ?, password = ?, image_path = ?, enabled = ?, is_admin = ? WHERE id = ? | Params: [1]=admin2, [2]=admin@vegaburguer.com, [3]=Admin123, [4]=eca894bd-0b67-437f-9f56-c3235c6e7777.png, [5]=true, [6]=true, [7]=eca894bd-0b67-437f-9f56-c3235c6e7777]
 nov 27, 2025 1:43:50 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
 INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+nov 27, 2025 8:06:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+nov 27, 2025 8:06:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=eca894bd-0b67-437f-9f56-c3235c6e7777]
+nov 27, 2025 8:06:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE dependiente SET name = ?, email = ?, password = ?, image_path = ?, enabled = ?, is_admin = ? WHERE id = ? | Params: [1]=admin, [2]=admin@vegaburguer.com, [3]=Admin123, [4]=eca894bd-0b67-437f-9f56-c3235c6e7777.png, [5]=true, [6]=true, [7]=eca894bd-0b67-437f-9f56-c3235c6e7777]
+nov 27, 2025 8:07:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+nov 27, 2025 8:14:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+nov 28, 2025 11:18:30 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+nov 28, 2025 11:18:36 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=eca894bd-0b67-437f-9f56-c3235c6e7777]
+nov 28, 2025 11:18:36 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE dependiente SET name = ?, email = ?, password = ?, image_path = ?, enabled = ?, is_admin = ? WHERE id = ? | Params: [1]=admin, [2]=admin@vegaburguer.com, [3]=Admin123, [4]=eca894bd-0b67-437f-9f56-c3235c6e7777.png, [5]=true, [6]=false, [7]=eca894bd-0b67-437f-9f56-c3235c6e7777]
+nov 28, 2025 11:18:36 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=eca894bd-0b67-437f-9f56-c3235c6e7777]
+nov 28, 2025 11:18:36 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE dependiente SET name = ?, email = ?, password = ?, image_path = ?, enabled = ?, is_admin = ? WHERE id = ? | Params: [1]=admin, [2]=admin@vegaburguer.com, [3]=Admin123, [4]=eca894bd-0b67-437f-9f56-c3235c6e7777.png, [5]=true, [6]=true, [7]=eca894bd-0b67-437f-9f56-c3235c6e7777]
+nov 28, 2025 5:46:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+nov 28, 2025 5:47:12 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO dependiente (id, name, email, password, image_path, enabled, is_admin) VALUES (?, ?, ?, ?, ?, ?, ?) | Params: [1]=f1489844-830c-42cb-ae36-4bdab2fab56b, [2]=admin2, [3]=kevin2@gmail.com, [4]=Admin123, [5]=f1489844-830c-42cb-ae36-4bdab2fab56b.png, [6]=true, [7]=true]

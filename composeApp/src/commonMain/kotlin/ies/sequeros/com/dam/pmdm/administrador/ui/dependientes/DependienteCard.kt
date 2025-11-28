@@ -21,6 +21,7 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.ManageAccounts
+import androidx.compose.material.icons.filled.Password
 import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VisibilityOff
 import androidx.compose.material3.AssistChip
@@ -57,7 +58,7 @@ fun DependienteCard(
     item: DependienteDTO,
     onActivate: (item:DependienteDTO) -> Unit,
     onDeactivate: (item:DependienteDTO) -> Unit,
-    onView: () -> Unit,
+    onChangePassword: (DependienteDTO) -> Unit,
     onEdit: (DependienteDTO) -> Unit,
     onDelete: (item: DependienteDTO) -> Unit,
     onChangeAdmin: (item:DependienteDTO) -> Unit,
@@ -198,9 +199,9 @@ fun DependienteCard(
                     Icon(Icons.Default.ManageAccounts, contentDescription = "Admin")
                 }
 
-                // Ver detalles
-                OutlinedIconButton(onClick = onView) {
-                    Icon(Icons.AutoMirrored.Filled.Article, contentDescription = "Ver")
+                // Cambiar Contraseña
+                OutlinedIconButton(onClick = { onChangePassword(item) }) {
+                    Icon(Icons.Default.Password, contentDescription = "Cambiar Contraseña")
                 }
 
                 // Editar
