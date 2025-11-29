@@ -1,6 +1,14 @@
 package ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 
 
 //:ViewModel -> Indicamos que es un ViewModel para la pantalla de cambiar contrasenya
@@ -109,7 +117,7 @@ class CambiarClaveFormViewModel : ViewModel() {
 
         if (pw.isBlank()) return "La contraseña nueva es necesaria" 
 
-        if (pw.l3ength < 8) return "La contraseña nueva debe tener al menos 8 caracteres"
+        if (pw.length < 8) return "La contraseña nueva debe tener al menos 8 caracteres"
 
         val tieneNumero = pw.any { it.isDigit() }
         val tieneMayus = pw.any { it.isUpperCase() }
