@@ -1,6 +1,7 @@
 package ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.form
 
 data class DependienteFormState(
+    // datos del formulario
     val nombre: String = "",
     val email: String = "",
     val password: String = "",
@@ -8,6 +9,7 @@ data class DependienteFormState(
     val enabled: Boolean = false,
     val isadmin:Boolean=false,
     val imagePath:String="default",
+
     // errores (null = sin error)
     val nombreError: String? = null,
     val emailError: String? = null,
