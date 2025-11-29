@@ -159,7 +159,7 @@ class CambiarClaveFormViewModel : ViewModel() {
     }
 
 
-    fun onSubmit(
+    fun submit(
         
         onSuccess: (String, String) -> Unit,
         onFailure: ((CambiarClaveFormState) -> Unit)? = null
