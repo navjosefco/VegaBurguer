@@ -39,8 +39,12 @@ public class DependienteDao implements IDao<Dependiente> {
                                     + "VALUES (?, ?, ?, ?, ?, ?, ?)";
 
     private final String update = "UPDATE " + table_name 
-                                    +"SET name = ?, email = ?, password = ?, image_path = ?, enabled = ?, is_admin = ? " 
-                                    +"WHERE id = ?";
+                                    + " SET name = ?, email = ?, password = ?, image_path = ?, enabled = ?, is_admin = ? " 
+                                    + "WHERE id = ?";
+    
+    private final String updatePassword = "UPDATE " + table_name 
+                                    + " SET password = ?" 
+                                    + " WHERE id = ?";
     
     //Creo un cosntructor vacio para que pueda ser instanciado
     public DependienteDao() {
@@ -272,6 +276,31 @@ public class DependienteDao implements IDao<Dependiente> {
         } catch (final SQLException ex) {
             Logger.getLogger(DependienteDao.class.getName()).log(Level.SEVERE,
                     null, ex);
+        }
+    }
+
+    public void cambiarContrasenya(String id, String oldPass, String newPass) throws Exception {
+        Dependiente dependiente = getById(id);
+        if (dependiente == null) {
+            throw new Exception("Usuario no encontrado");
+        }
+
+        StrongPasswordEncryptor encryptor = new StrongPasswordEncryptor();
+        if (!encryptor.checkPassword(oldPass, dependiente.getPassword())) {
+            throw new Exception("La contraseña actual es incorrecta");
+        }
+
+        String encryptedNewPass = encryptor.encryptPassword(newPass);
+
+        try (PreparedStatement pst = conn.getConnection().prepareStatement(updatePassword)) {
+            pst.setString(1, encryptedNewPass);
+            pst.setString(2, id);
+            pst.executeUpdate();
+            
+            Logger.getLogger(DependienteDao.class.getName()).info("Contraseña actualizada para el usuario: " + id);
+        } catch (SQLException ex) {
+            Logger.getLogger(DependienteDao.class.getName()).log(Level.SEVERE, null, ex);
+            throw new Exception("Error al actualizar la contraseña en la base de datos");
         }
     }
 

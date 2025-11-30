@@ -2,6 +2,7 @@ package ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import ies.sequeros.com.dam.pmdm.administrador.aplicacion.dependientes.listar.DependienteDTO
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -13,7 +14,10 @@ import kotlinx.coroutines.launch
 
 //:ViewModel -> Indicamos que es un ViewModel para la pantalla de cambiar contrasenya
 
-class CambiarClaveFormViewModel : ViewModel() {
+class CambiarClaveFormViewModel(
+    private val item: DependienteDTO?, // Recibimos el usuario (igual que en DependienteFormViewModel)
+    private val onSuccess: (String, String) -> Unit 
+) : ViewModel() {
     
     //MutableStateFlow: para indicar que puede cambiar su estado 
     private val _uiState = MutableStateFlow(CambiarClaveFormState())
@@ -160,8 +164,6 @@ class CambiarClaveFormViewModel : ViewModel() {
 
 
     fun submit(
-        
-        onSuccess: (String, String) -> Unit,
         onFailure: ((CambiarClaveFormState) -> Unit)? = null
     ){
 

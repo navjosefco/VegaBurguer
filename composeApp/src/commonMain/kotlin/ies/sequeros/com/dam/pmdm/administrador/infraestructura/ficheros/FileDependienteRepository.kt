@@ -100,5 +100,21 @@ class FileDependienteRepository(
         return null;
     }
 
-
+    override suspend fun cambiarContrasenya(id: String, oldPass: String, newPass: String) {
+        val items = this.getAll().toMutableList()
+        val item = items.firstOrNull { it.id == id }
+        if (item != null) {
+            // En este repositorio de ficheros (simple), hacemos una comprobación directa
+            if (item.password == oldPass) {
+                val newItem = item.copy(password = newPass)
+                val index = items.indexOf(item)
+                items[index] = newItem
+                this.save(items)
+            } else {
+                throw Exception("Contraseña actual incorrecta")
+            }
+        } else {
+            throw Exception("Usuario no encontrado")
+        }
+    }
 }

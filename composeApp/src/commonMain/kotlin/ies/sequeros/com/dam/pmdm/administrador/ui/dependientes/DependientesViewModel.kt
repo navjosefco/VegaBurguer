@@ -29,6 +29,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
+
 class DependientesViewModel(
     //private val administradorViewModel: MainAdministradorViewModel,
     private val dependienteRepositorio: IDependienteRepositorio,
@@ -44,6 +45,8 @@ class DependientesViewModel(
     private val activarDependienteUseCase: ActivarDependienteUseCase
     private val cambiarPermisosUseCase:  CambiarPermisosUseCase
 
+    private val cambiarClaveDependienteUseCase: CambiarClaveDependienteUseCase
+
     private val _items = MutableStateFlow<MutableList<DependienteDTO>>(mutableListOf())
     val items: StateFlow<List<DependienteDTO>> = _items.asStateFlow()
     private val _selected = MutableStateFlow<DependienteDTO?>(null)
@@ -56,6 +59,9 @@ class DependientesViewModel(
         listarDependientesUseCase = ListarDependientesUseCase(dependienteRepositorio,almacenDatos)
         activarDependienteUseCase = ActivarDependienteUseCase(dependienteRepositorio,almacenDatos)
         cambiarPermisosUseCase= CambiarPermisosUseCase(dependienteRepositorio,almacenDatos)
+
+        cambiarClaveDependienteUseCase = CambiarClaveDependienteUseCase(dependienteRepositorio,almacenDatos)
+
         viewModelScope.launch {
             var items = listarDependientesUseCase.invoke()
             _items.value.clear()
@@ -162,5 +168,15 @@ class DependientesViewModel(
     }
 
 
+
+    fun changePassword(id: String, oldPass: String, newPass: String) {
+        viewModelScope.launch {
+            try {
+                cambiarClaveDependienteUseCase.invoke(id, oldPass, newPass)
+            } catch (e: Exception) {
+                throw e
+            }
+        }
+    }
 
 }

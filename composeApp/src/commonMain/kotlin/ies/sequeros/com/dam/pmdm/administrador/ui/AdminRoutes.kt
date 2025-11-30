@@ -10,6 +10,6 @@ object  AdminRoutes {
     const val Pedido="pedido"
     const val Dependientes="dependientes"
     const val Dependiente="dependiente"
-
-
+    const val CambiarClave = "cambiarClave"
+    
 }

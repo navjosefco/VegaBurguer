@@ -14,18 +14,21 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.DependientesViewModel
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 
 @Composable
 fun CambiarClaveForm(
-    
-
+    dependientesViewModel: DependientesViewModel,
     onClose: () -> Unit,
     onConfirm: (String, String) -> Unit, //oldPassword, newPassword
 
     cambiarClaveFormularioViewModel: CambiarClaveFormViewModel = viewModel {
-        CambiarClaveFormViewModel()
+        CambiarClaveFormViewModel(
+            item = dependientesViewModel.selected.value,
+            onSuccess = onConfirm
+        )
     }
 
 ){
@@ -147,9 +150,6 @@ fun CambiarClaveForm(
 
                     onClick = {
                         cambiarClaveFormularioViewModel.submit(
-                            onSuccess = { oldPass, newPass ->
-                                onConfirm(oldPass, newPass)
-                            },
                             onFailure = {}
                         )
                     },
@@ -166,16 +166,5 @@ fun CambiarClaveForm(
                 }
             }
         }
-    }
-}
-
-@Preview
-@Composable
-fun CambiarClaveFormPreview() {
-    MaterialTheme {
-        CambiarClaveForm(
-            onClose = {},
-            onConfirm = { _, _ -> }
-        )
     }
 }

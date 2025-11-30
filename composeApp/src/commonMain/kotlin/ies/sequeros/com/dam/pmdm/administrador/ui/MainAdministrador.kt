@@ -47,6 +47,9 @@ import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.Dependientes
 import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.DependientesViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.form.DependienteForm
 
+import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya.CambiarClaveForm
+import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya.CambiarClaveFormViewModel
+import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya.CambiarClaveFormState
 
 @Suppress("ViewModelConstructorInComposable")
 @Composable
@@ -158,13 +161,22 @@ fun MainAdministrador(
                 PrincipalAdministrador()
             }
             composable(AdminRoutes.Dependientes){
-                Dependientes(mainViewModel,dependientesViewModel,{
-                    dependientesViewModel.setSelectedDependiente(it)
-                    navController.navigate(AdminRoutes.Dependiente) {
-                        launchSingleTop = true
-
+               Dependientes(
+                    mainViewModel,
+                    dependientesViewModel,
+                    { 
+                        dependientesViewModel.setSelectedDependiente(it)
+                        navController.navigate(AdminRoutes.Dependiente) {
+                            launchSingleTop = true
+                        }
+                    },
+                    { 
+                        dependientesViewModel.setSelectedDependiente(it) // Guardamos el usuario
+                        navController.navigate(AdminRoutes.CambiarClave) { // Navegamos
+                            launchSingleTop = true
+                        }
                     }
-                })
+                )
             }
             composable (AdminRoutes.Dependiente){
                 DependienteForm(
@@ -176,7 +188,21 @@ fun MainAdministrador(
                     }
                 )
             }
-
+            composable(AdminRoutes.CambiarClave) {
+                CambiarClaveForm(
+                    dependientesViewModel, 
+                    {
+                        navController.popBackStack()
+                    },
+                    { oldPass, newPass ->
+                        val selectedId = dependientesViewModel.selected.value?.id
+                        if (selectedId != null) {
+                            dependientesViewModel.changePassword(selectedId, oldPass, newPass)
+                        }
+                        navController.popBackStack()
+                    }
+                )
+            }
         }
     }
 

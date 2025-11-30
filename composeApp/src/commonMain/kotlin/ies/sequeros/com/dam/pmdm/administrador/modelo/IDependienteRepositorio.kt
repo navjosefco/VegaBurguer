@@ -8,5 +8,6 @@ interface  IDependienteRepositorio {
     suspend fun getAll():List<Dependiente>
     suspend fun findByName(name:String): Dependiente?
     suspend fun getById(id:String):Dependiente?
+    suspend fun cambiarContrasenya(id: String, oldPass: String, newPass: String)
 
 }
