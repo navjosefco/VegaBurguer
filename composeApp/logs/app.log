@@ -1441,3 +1441,11 @@ nov 30, 2025 10:11:14 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestruc
 INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=54a96a52-53bf-49c7-8fa7-c9d8a0abf398]
 nov 30, 2025 10:11:14 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao cambiarContrasenya
 INFORMACIÓN: Contraseña actualizada para el usuario: 54a96a52-53bf-49c7-8fa7-c9d8a0abf398
+dic 02, 2025 11:43:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 02, 2025 11:43:47 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=f1489844-830c-42cb-ae36-4bdab2fab56b]
+dic 02, 2025 11:43:47 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE dependiente SET name = ?, email = ?, password = ?, image_path = ?, enabled = ?, is_admin = ? WHERE id = ? | Params: [1]=admin2, [2]=kevin2@gmail.com, [3]=wHNaIirRrTeniYrSHr0xf9l0/cGTQ7JWxe39GGs5v7S1jRZlePkB+hbOFP+Iex6O, [4]=f1489844-830c-42cb-ae36-4bdab2fab56b.png, [5]=true, [6]=false, [7]=f1489844-830c-42cb-ae36-4bdab2fab56b]
+dic 02, 2025 5:31:18 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
