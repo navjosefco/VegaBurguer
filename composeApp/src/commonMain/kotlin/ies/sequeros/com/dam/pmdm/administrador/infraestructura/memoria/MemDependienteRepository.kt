@@ -59,5 +59,11 @@ class MemDependienteRepository: IDependienteRepositorio {
         return this.items[id];
     }
 
+    override suspend fun cambiarContrasenya(id: String, oldPass: String, newPass: String) {
+        
+    }
+
+
+
 
 }

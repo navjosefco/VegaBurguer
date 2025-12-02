@@ -41,7 +41,8 @@ import ies.sequeros.com.dam.pmdm.administrador.ui.MainAdministradorViewModel
 fun Dependientes(
     mainAdministradorViewModel: MainAdministradorViewModel,
     dependientesViewModel: DependientesViewModel,
-    onSelectItem:(DependienteDTO?)->Unit
+    onSelectItem:(DependienteDTO?) -> Unit,
+    onChangePassword:(DependienteDTO) -> Unit
 ){
     val items by dependientesViewModel.items.collectAsState()
     var searchText by remember { mutableStateOf("")}
@@ -111,7 +112,9 @@ fun Dependientes(
                             enabled = !it.enabled
                         )
                         dependientesViewModel.switchEnableDependiente(element)
-                    },{},{
+                    },{
+                        onChangePassword(it)
+                    },{
                         onSelectItem(it);
 
                     },{
