@@ -54,6 +54,8 @@ kotlin {
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
+            implementation("io.mockk:mockk:1.13.8")
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
         }
         jvmMain.dependencies {
             implementation(compose.desktop.currentOs)
