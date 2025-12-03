@@ -5,11 +5,11 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Producto(
     
-    val id: Int,
-    val nombre: String,
-    val descripcion: String,
-    val precio: Double,
-    val imagen: String,
-    val idCategoria: String,
-    val habilitado: Boolean
+    val id: String,
+    val categoria_id: String,
+    val name: String,
+    val description: String,
+    val price: Double,
+    val image_path: String,
+    val enabled: Boolean
 )
