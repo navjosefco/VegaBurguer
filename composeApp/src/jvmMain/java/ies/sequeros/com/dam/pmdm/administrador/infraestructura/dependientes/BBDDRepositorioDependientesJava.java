@@ -25,6 +25,7 @@ public  class BBDDRepositorioDependientesJava {
 
         this.dao.insert(item);
     }
+    
     public boolean remove(Dependiente item){
 
         this.dao.delete(item);
@@ -40,7 +41,7 @@ public  class BBDDRepositorioDependientesJava {
         return false;
     }
 
-    public boolean  update(Dependiente item){
+    public boolean update(Dependiente item){
 
         this.dao.update(item);
         return true;
