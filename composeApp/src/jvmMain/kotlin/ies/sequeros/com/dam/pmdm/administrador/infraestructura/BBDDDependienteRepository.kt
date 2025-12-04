@@ -12,7 +12,13 @@ class BBDDDependienteRepository(
         bbddRepositorioDepedientesJava.add(item)
     }
 
-    override suspend fun remove(item: Dependiente): Boolean {
+    override suspend fun delete(item: Dependiente): Boolean {
+
+        bbddRepositorioDepedientesJava.remove(item)
+        return true
+    }
+
+    suspend fun remove(item: Dependiente): Boolean {
         bbddRepositorioDepedientesJava.remove(item)
         return true
     }
