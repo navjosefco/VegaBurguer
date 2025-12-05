@@ -23,7 +23,11 @@ class MemDependienteRepository: IDependienteRepositorio {
         }
     }
 
-    override suspend  fun remove(item: Dependiente): Boolean {
+    override suspend fun delete(item: Dependiente): Boolean {
+        TODO("Not yet implemented")
+    }
+
+    suspend  fun remove(item: Dependiente): Boolean {
        return this.remove(item.id!!)
     }
 

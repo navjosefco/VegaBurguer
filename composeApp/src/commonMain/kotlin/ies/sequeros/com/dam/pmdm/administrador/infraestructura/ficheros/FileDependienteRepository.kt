@@ -18,6 +18,8 @@ class FileDependienteRepository(
 
     }
 
+
+
     private suspend fun getDirectoryPath(): String {
         val dir = almacenDatos.getAppDataDir()
         val directory = File(dir, subdirectory)
@@ -42,7 +44,11 @@ class FileDependienteRepository(
         this.save(items)
     }
 
-    override suspend fun remove(item: Dependiente): Boolean {
+    override suspend fun delete(item: Dependiente): Boolean {
+        TODO("Not yet implemented")
+    }
+
+    suspend fun remove(item: Dependiente): Boolean {
         return this.remove(item.id!!)
     }
 
