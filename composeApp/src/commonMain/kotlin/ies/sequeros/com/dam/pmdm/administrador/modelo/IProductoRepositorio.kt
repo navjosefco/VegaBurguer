@@ -10,5 +10,6 @@ interface IProductoRepositorio {
     suspend fun getAll(): List<Producto>
     suspend fun getById(id: String): Producto?
     suspend fun getByCategoria(idCategoria: String): List<Producto>
+    suspend fun getByName(name: String): Producto?
 
 }

@@ -1,11 +1,8 @@
 package ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos;
 
-
-
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Producto;
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.DataBaseConnection;
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.IDao;
-
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -41,6 +38,11 @@ public class ProductoDao implements IDao<Producto>{
     private final String selectByCat = 
         "SELECT * FROM " + table_name
         + " WHERE categoria_id = ?";
+
+    //Traer productos por nombre
+    private final String selectByName = 
+        "SELECT * FROM " + table_name
+        + " WHERE name = ?";
 
     //Insertar un producto
     private final String insert = 
@@ -348,9 +350,38 @@ public class ProductoDao implements IDao<Producto>{
         }
     }
 
+    /*
+     * Implementacion de la interface IDao
+     * Sentencia: selectByName
+     */
+    public Producto getByName(final String name){
 
+        Producto sp = null;
 
+        try{
 
+            final PreparedStatement pst = conn.getConnection().prepareStatement(selectByName);
+
+            pst.setString(1, name);
+
+            final ResultSet rs = pst.executeQuery();
+
+            while(rs.next()){
+
+                sp = registerToObject(rs);
+            }
+
+            pst.close();
+
+            Logger logger = Logger.getLogger(ProductoDao.class.getName());
+            logger.info("Ejecutando SQL: " + selectByName + " | Parametros: [name=" + name + "]");
+
+        }catch(final SQLException ex){
+            Logger.getLogger(ProductoDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return sp;
+    }
 }
 
 /* 
@@ -367,7 +398,4 @@ interface IProductoRepositorio {
     public List<T> getAll();
     public void update(T item);
     public void delete(T item);
-    public void insert(T item);
-}
-
-*/
+    public void insert(T item);*/

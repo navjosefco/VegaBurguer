@@ -45,6 +45,11 @@ class BBDDProductoRepository(
 
         return bbddRepositorioProductoJava.getByCat(idCategoria)
     }
+
+    override suspend fun getByName(name: String): Producto? {
+
+        return bbddRepositorioProductoJava.findByName(name)
+    }
 }
 
 /*

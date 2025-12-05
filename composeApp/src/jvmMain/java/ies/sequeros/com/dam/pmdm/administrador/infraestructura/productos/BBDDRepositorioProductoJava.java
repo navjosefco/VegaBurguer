@@ -5,7 +5,7 @@ import java.util.List;
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Producto;
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.DataBaseConnection;
 
-//MeEsta clase sirve como puente entre la base de datos y la capa de negocio en Java
+//Esta clase sirve como puente entre la base de datos y la capa de negocio en Java
 public class BBDDRepositorioProductoJava {
 
     private final DataBaseConnection db;
@@ -63,5 +63,10 @@ public class BBDDRepositorioProductoJava {
     public List<Producto> getByCat(String id){
 
         return this.dao.getByCategoria(id);
+    }
+
+    public Producto findByName(String name){
+
+        return this.dao.getByName(name);
     }
 }
