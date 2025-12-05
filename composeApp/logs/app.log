@@ -1696,3 +1696,7 @@ dic 04, 2025 6:38:49 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestruct
 INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
 dic 04, 2025 6:39:33 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
 INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 4:13:55 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 05, 2025 4:17:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
