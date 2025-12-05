@@ -32,7 +32,7 @@ public class DependienteDao implements IDao<Dependiente> {
                                         + " where name=?";
 
     private final String deletebyid = "delete from " + table_name 
-                                        + " where id='?'";
+                                        + " where id=?";
 
     private final String insert = "INSERT INTO " + table_name 
                                     + " (id, name, email, password, image_path, enabled, is_admin) " 
@@ -319,7 +319,7 @@ public class DependienteDao implements IDao<Dependiente> {
                     r.getString("NAME"),
                     r.getString("EMAIL"),
                     r.getString("PASSWORD"),
-                    r.getString("IMAGE_PATH"),
+                    r.getString("IMAGE_PATH") != null ? r.getString("IMAGE_PATH") : "",
                     r.getBoolean("ENABLED"),
                     r.getBoolean("IS_ADMIN"));
 

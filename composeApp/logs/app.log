@@ -1700,3 +1700,275 @@ dic 05, 2025 4:13:55 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestruct
 INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
 dic 05, 2025 4:17:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
 INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 05, 2025 11:37:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getByName
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE name = ? | Parametros: [name=Panes]
+dic 05, 2025 11:37:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO categoria (id, name, image_path, enabled) VALUES (?, ?, ?, ?); | Parametros: [id=37061] [name=Panes] [image_path=37061.png] [enabled=true]
+dic 05, 2025 11:47:50 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 11:47:50 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 05, 2025 11:48:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=1]
+dic 05, 2025 11:48:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=1] [name=patatas] [image_path=] [enabled=false]
+dic 05, 2025 11:48:43 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=37061]
+dic 05, 2025 11:48:43 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=37061] [name=Panes] [image_path=37061.png] [enabled=false]
+dic 05, 2025 11:48:49 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=37061]
+dic 05, 2025 11:48:49 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=37061] [name=Panes] [image_path=37061.png] [enabled=true]
+dic 05, 2025 11:48:50 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=1]
+dic 05, 2025 11:48:50 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=1] [name=patatas] [image_path=] [enabled=true]
+dic 05, 2025 11:48:52 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=1]
+dic 05, 2025 11:48:52 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=1]
+dic 05, 2025 11:48:52 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao delete
+GRAVE: null
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`vegaburguer`.`producto`, CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao.delete(CategoriaDao.java:255)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.BBDDRepositorioCategoriaJava.remove(BBDDRepositorioCategoriaJava.java:27)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.BBDDRepositorioCategoriaJava.remove(BBDDRepositorioCategoriaJava.java:34)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDCategoriaRepository.remove(BBDDCategoriaRepository.kt:23)
+	at ies.sequeros.com.dam.pmdm.administrador.aplicacion.categorias.borrar.BorrarCategoriaUseCase.invoke(BorrarCategoriaUseCase.kt:15)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel$delete$1.invokeSuspend(CategoriasViewModel.kt:58)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel.delete(CategoriasViewModel.kt:57)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasKt$Categorias$1$2$1$1.invoke$lambda$3$0(Categorias.kt:71)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriaCardKt$CategoriaCard$1.invoke$lambda$0$3$2$0(CategoriaCard.kt:122)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+dic 05, 2025 11:48:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=37061]
+dic 05, 2025 11:48:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=37061]
+dic 05, 2025 11:48:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao delete
+INFORMACIÓN: Ejecutando SQL: DELETE FROM categoria WHERE id = ?; | Parametros: [id=37061]
+dic 05, 2025 11:49:04 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getByName
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE name = ? | Parametros: [name=panaj]
+dic 05, 2025 11:49:04 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO categoria (id, name, image_path, enabled) VALUES (?, ?, ?, ?); | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5] [name=panaj] [image_path=570e77fc-a892-4a90-a3e6-acc1bae151f5.png] [enabled=true]
+dic 05, 2025 11:49:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:49:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getByName
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE name = ? | Parametros: [name=TTTEIJE]
+dic 05, 2025 11:49:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5] [name=TTTEIJE] [image_path=570e77fc-a892-4a90-a3e6-acc1bae151f5.png] [enabled=true]
+dic 05, 2025 11:49:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:49:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5] [name=TTTEIJE] [image_path=570e77fc-a892-4a90-a3e6-acc1bae151f5.png] [enabled=false]
+dic 05, 2025 11:49:34 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:49:34 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5] [name=TTTEIJE] [image_path=570e77fc-a892-4a90-a3e6-acc1bae151f5.png] [enabled=true]
+dic 05, 2025 11:49:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:49:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5] [name=TTTEIJE] [image_path=570e77fc-a892-4a90-a3e6-acc1bae151f5.png] [enabled=false]
+dic 05, 2025 11:49:39 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:49:39 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5] [name=TTTEIJE] [image_path=570e77fc-a892-4a90-a3e6-acc1bae151f5.png] [enabled=true]
+dic 05, 2025 11:49:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=1]
+dic 05, 2025 11:49:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 11:49:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=1]
+dic 05, 2025 11:49:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao delete
+INFORMACIÓN: Ejecutando SQL: delete from dependiente where id=? | Parametros: [id=1]
+dic 05, 2025 11:49:55 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=54a96a52-53bf-49c7-8fa7-c9d8a0abf398]
+dic 05, 2025 11:49:55 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 11:49:55 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=54a96a52-53bf-49c7-8fa7-c9d8a0abf398]
+dic 05, 2025 11:49:55 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao delete
+INFORMACIÓN: Ejecutando SQL: delete from dependiente where id=? | Parametros: [id=54a96a52-53bf-49c7-8fa7-c9d8a0abf398]
+dic 05, 2025 11:49:56 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=a123a036-393b-425a-86a0-a3dc814d7979]
+dic 05, 2025 11:49:56 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 11:49:56 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=a123a036-393b-425a-86a0-a3dc814d7979]
+dic 05, 2025 11:49:56 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao delete
+INFORMACIÓN: Ejecutando SQL: delete from dependiente where id=? | Parametros: [id=a123a036-393b-425a-86a0-a3dc814d7979]
+dic 05, 2025 11:49:57 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=bf78b514-dca6-407b-8084-a7ed56b213fd]
+dic 05, 2025 11:49:57 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 11:49:57 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=bf78b514-dca6-407b-8084-a7ed56b213fd]
+dic 05, 2025 11:49:57 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao delete
+INFORMACIÓN: Ejecutando SQL: delete from dependiente where id=? | Parametros: [id=bf78b514-dca6-407b-8084-a7ed56b213fd]
+dic 05, 2025 11:49:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=f1489844-830c-42cb-ae36-4bdab2fab56b]
+dic 05, 2025 11:49:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 11:49:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getById
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where id=? | Parametros: [id=f1489844-830c-42cb-ae36-4bdab2fab56b]
+dic 05, 2025 11:49:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao delete
+INFORMACIÓN: Ejecutando SQL: delete from dependiente where id=? | Parametros: [id=f1489844-830c-42cb-ae36-4bdab2fab56b]
+dic 05, 2025 11:51:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 05, 2025 11:51:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 05, 2025 11:51:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=1]
+dic 05, 2025 11:51:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=1]
+dic 05, 2025 11:51:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao delete
+GRAVE: null
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`vegaburguer`.`producto`, CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao.delete(CategoriaDao.java:255)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.BBDDRepositorioCategoriaJava.remove(BBDDRepositorioCategoriaJava.java:27)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.BBDDRepositorioCategoriaJava.remove(BBDDRepositorioCategoriaJava.java:34)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDCategoriaRepository.remove(BBDDCategoriaRepository.kt:23)
+	at ies.sequeros.com.dam.pmdm.administrador.aplicacion.categorias.borrar.BorrarCategoriaUseCase.invoke(BorrarCategoriaUseCase.kt:15)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel$delete$1.invokeSuspend(CategoriasViewModel.kt:58)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel.delete(CategoriasViewModel.kt:57)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasKt$Categorias$1$2$1$1.invoke$lambda$3$0(Categorias.kt:71)
+	at ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriaCardKt$CategoriaCard$1.invoke$lambda$0$3$2$0(CategoriaCard.kt:122)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+dic 05, 2025 11:51:30 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:51:30 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:51:30 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao delete
+INFORMACIÓN: Ejecutando SQL: DELETE FROM categoria WHERE id = ?; | Parametros: [id=570e77fc-a892-4a90-a3e6-acc1bae151f5]
+dic 05, 2025 11:51:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getByName
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE name = ? | Parametros: [name=SFSDF]
+dic 05, 2025 11:51:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO categoria (id, name, image_path, enabled) VALUES (?, ?, ?, ?); | Parametros: [id=550185a2-55c6-4d67-bf98-796dc90a8516] [name=SFSDF] [image_path=550185a2-55c6-4d67-bf98-796dc90a8516.png] [enabled=true]
+dic 05, 2025 11:52:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=550185a2-55c6-4d67-bf98-796dc90a8516]
+dic 05, 2025 11:52:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=550185a2-55c6-4d67-bf98-796dc90a8516] [name=SFSDF] [image_path=550185a2-55c6-4d67-bf98-796dc90a8516.png] [enabled=true]
+dic 05, 2025 11:52:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria WHERE id = ? | Parametros: [id=550185a2-55c6-4d67-bf98-796dc90a8516]
+dic 05, 2025 11:52:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE categoria SET name = ?, image_path = ?, enabled = ? WHERE id = ?; | Parametros: [id=550185a2-55c6-4d67-bf98-796dc90a8516] [name=SFSDF] [image_path=550185a2-55c6-4d67-bf98-796dc90a8516.png] [enabled=true]

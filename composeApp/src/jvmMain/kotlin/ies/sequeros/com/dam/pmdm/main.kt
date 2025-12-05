@@ -7,6 +7,9 @@ import ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepos
 import ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.BBDDRepositorioDependientesJava
 import ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava
 import ies.sequeros.com.dam.pmdm.administrador.modelo.IDependienteRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.modelo.ICategoriaRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.BBDDRepositorioCategoriaJava
+import ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDCategoriaRepository
 import ies.sequeros.com.dam.pmdm.administrador.modelo.IProductoRepositorio
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.AlmacenDatos
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.DataBaseConnection
@@ -31,6 +34,9 @@ fun main() = application {
     val productoRepositorioJava = BBDDRepositorioProductoJava(connection)
     val productoRepositorio: IProductoRepositorio = BBDDProductoRepository(productoRepositorioJava)
 
+    val categoriaRepositorioJava = BBDDRepositorioCategoriaJava(connection)
+    val categoriaRepositorio: ICategoriaRepositorio = BBDDCategoriaRepository(categoriaRepositorioJava)
+
     //Se inicializa el logging con el archivo logging.properties
     configureExternalLogging("./logging.properties")
 
@@ -43,7 +49,7 @@ fun main() = application {
             exitApplication()},
         title = "VegaBurguer",
     ) {
-        App(dependienteRepositorio, productoRepositorio,AlmacenDatos())
+        App(dependienteRepositorio, productoRepositorio, categoriaRepositorio, AlmacenDatos())
     }
 }
 
