@@ -50,6 +50,10 @@ import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.form.DependienteF
 import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya.CambiarClaveForm
 import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya.CambiarClaveFormViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.formContrasenya.CambiarClaveFormState
+import ies.sequeros.com.dam.pmdm.administrador.ui.productos.Productos
+import ies.sequeros.com.dam.pmdm.administrador.ui.productos.ProductosViewModel
+import ies.sequeros.com.dam.pmdm.administrador.ui.productos.form.ProductoForm
+import ies.sequeros.com.dam.pmdm.administrador.ui.productos.form.ProductoFormViewModel
 
 @Suppress("ViewModelConstructorInComposable")
 @Composable
@@ -58,8 +62,7 @@ fun MainAdministrador(
     mainViewModel: MainAdministradorViewModel,
     administradorViewModel: AdministradorViewModel,
     dependientesViewModel: DependientesViewModel,
-
-
+    productosViewModel: ProductosViewModel,
     onExit: () -> Unit
 ) {
     val navController = rememberNavController()
@@ -199,6 +202,31 @@ fun MainAdministrador(
                         if (selectedId != null) {
                             dependientesViewModel.changePassword(selectedId, oldPass, newPass)
                         }
+                        navController.popBackStack()
+                    }
+                )
+            }
+            composable (AdminRoutes.Productos){
+               Productos(
+                   mainViewModel,
+                   productosViewModel,
+                   onSelectItem = {
+                       productosViewModel.setSelectedProducto(it)
+                       navController.navigate(AdminRoutes.Producto){
+                           launchSingleTop=true
+                       }
+                   }
+               )
+            }
+
+            composable(AdminRoutes.Producto) {
+                ProductoForm(
+                    productosViewModel,
+                    {
+                        navController.popBackStack()
+                    },
+                    {
+                        productosViewModel.save(it)
                         navController.popBackStack()
                     }
                 )
