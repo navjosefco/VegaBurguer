@@ -9,8 +9,15 @@ class ListarCategoriasUseCase(
     private val almacenDatos: AlmacenDatos
 ) {
     suspend fun invoke(): List<CategoriaDTO> {
-        return repositorio.getAll().map { 
+        /*
+        val items = repositorio.getAll().map{it.toDTO(
+            if(it.image_path.isEmpty()) "" else almacenDatos.getAppDataDir() + "/categorias/" + it.image_path
+        )}
+        return items
+        */
+        return repositorio.getAll().map {
              it.toDTO(almacenDatos.getAppDataDir() + "/categorias/") 
         }
+
     }
 }
