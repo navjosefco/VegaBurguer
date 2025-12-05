@@ -34,6 +34,6 @@ class CrearCategoriaUseCase(
 
         // 5. Persistir
         repositorio.add(categoria) // Changed from save() to add() to match interface
-        return categoria.toDTO() // Manually mapping because add returns Unit
+        return categoria.toDTO(almacenDatos.getAppDataDir() + "/categorias/") // Manually mapping because add returns Unit
     }
 }

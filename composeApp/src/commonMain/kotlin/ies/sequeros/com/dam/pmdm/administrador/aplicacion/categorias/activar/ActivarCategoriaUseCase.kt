@@ -15,6 +15,6 @@ class ActivarCategoriaUseCase(
             
         val updated = existing.copy(enabled = command.enabled)
         repositorio.update(updated)
-        return updated.toDTO()
+        return updated.toDTO(almacenDatos.getAppDataDir()+"/categorias/")
     }
 }

@@ -2,20 +2,20 @@ package ies.sequeros.com.dam.pmdm.administrador.aplicacion.categorias.listar
 
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Categoria
 
-fun Categoria.toDTO(): CategoriaDTO {
+fun Categoria.toDTO(path: String = ""): CategoriaDTO {
     return CategoriaDTO(
-        id = this.id,
-        name = this.name,
-        image_path = this.image_path, // Mapeo desde la entidad (image_path)
-        enabled = this.enabled
+        id = id,
+        name = name,
+        image_path = path + image_path,
+        enabled = enabled
     )
 }
 
 fun CategoriaDTO.toCategoria(): Categoria {
     return Categoria(
-        id = this.id,
-        name = this.name,
-        image_path = this.image_path, // Mapeo hacia la entidad (image_path)
-        enabled = this.enabled
+        id = id,
+        name = name,
+        image_path = image_path,
+        enabled = enabled
     )
 }

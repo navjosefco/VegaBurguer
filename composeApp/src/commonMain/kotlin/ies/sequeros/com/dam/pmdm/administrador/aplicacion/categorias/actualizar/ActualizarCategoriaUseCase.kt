@@ -39,6 +39,6 @@ class ActualizarCategoriaUseCase(
 
         // 5. Persistir
         repositorio.update(toUpdate)
-        return toUpdate.toDTO()
+        return toUpdate.toDTO(almacenDatos.getAppDataDir() + "/categorias/")
     }
 }

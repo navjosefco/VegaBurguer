@@ -262,7 +262,7 @@ public class ProductoDao implements IDao<Producto>{
             pst.close();
 
             Logger logger = Logger.getLogger(ProductoDao.class.getName());
-            logger.info(
+            logger.info(() ->
                         "Ejecutando SQL: " + insert +
                             " | Parametros: [id=" + producto.getId() + "]"
                             + " [categoria_id=" + producto.getCategoria_id() + "]"
@@ -302,7 +302,7 @@ public class ProductoDao implements IDao<Producto>{
             pst.close();
 
             Logger logger = Logger.getLogger(ProductoDao.class.getName());
-            logger.info(
+            logger.info(() ->
                     "Ejecutando SQL: " + insert +
                             " | Parametros: [id=" + producto.getId() + "]"
                             + " [categoria_id=" + producto.getCategoria_id() + "]"
@@ -339,7 +339,7 @@ public class ProductoDao implements IDao<Producto>{
             pst.close();
 
             Logger logger = Logger.getLogger(ProductoDao.class.getName());
-            logger.info(
+            logger.info(() ->
                     "Ejecutando SQL: " + delete +
                             " | Parametros: [id=" + producto.getId() + "]"
             );

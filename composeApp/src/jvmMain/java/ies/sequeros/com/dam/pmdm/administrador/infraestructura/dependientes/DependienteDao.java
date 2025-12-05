@@ -319,7 +319,7 @@ public class DependienteDao implements IDao<Dependiente> {
                     r.getString("NAME"),
                     r.getString("EMAIL"),
                     r.getString("PASSWORD"),
-                    r.getString("IMAGE_PATH") != null ? r.getString("IMAGE_PATH") : "",
+                    r.getString("IMAGE_PATH"),
                     r.getBoolean("ENABLED"),
                     r.getBoolean("IS_ADMIN"));
 
