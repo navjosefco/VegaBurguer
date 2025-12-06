@@ -27,7 +27,7 @@ class ProductoFormViewModel(
                 description = item?.description ?: "",
                 price = item?.price.toString() ?: "",
                 imagePath = item?.image_path ?: "",
-                enabled = item?.enabled ?: true
+                enabled = item?.enabled ?:false
             )
         )
 

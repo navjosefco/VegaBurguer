@@ -8,7 +8,7 @@ data class ProductoFormState(
     val description: String = "",
     val price: String = "", // String para facilitar la entrada de texto decimal
     val imagePath: String = "",
-    val enabled: Boolean = true,
+    val enabled: Boolean = false,
 
     // Errores (null = sin error)
     val categoriaIdError: String? = null,

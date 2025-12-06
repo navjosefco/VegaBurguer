@@ -30,7 +30,7 @@ class CrearProductoUseCase(
 
         val id = generateUUID()
 
-        val imageName=almacenDatos.copy(crearProductoCommand.image_path,id,"/productos/")
+        val imageName = almacenDatos.copy(crearProductoCommand.image_path,id,"/productos/")
 
         val newProducto = Producto(
             id = id,
@@ -38,7 +38,7 @@ class CrearProductoUseCase(
             name = crearProductoCommand.name,
             description = crearProductoCommand.description,
             price = crearProductoCommand.price,
-            image_path = crearProductoCommand.image_path,
+            image_path = imageName ?: crearProductoCommand.image_path,
             enabled = crearProductoCommand.enabled
         )
 

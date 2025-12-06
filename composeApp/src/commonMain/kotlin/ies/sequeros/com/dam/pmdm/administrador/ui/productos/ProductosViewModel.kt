@@ -12,6 +12,9 @@ import ies.sequeros.com.dam.pmdm.administrador.aplicacion.productos.borrar.Borra
 import ies.sequeros.com.dam.pmdm.administrador.aplicacion.productos.activar.ActivarProductoUseCase
 import ies.sequeros.com.dam.pmdm.administrador.aplicacion.productos.activar.ActivarProductoCommand
 import ies.sequeros.com.dam.pmdm.administrador.modelo.IProductoRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.modelo.ICategoriaRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.aplicacion.categorias.listar.ListarCategoriasUseCase
+import ies.sequeros.com.dam.pmdm.administrador.aplicacion.categorias.listar.CategoriaDTO
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.AlmacenDatos
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.form.ProductoFormState
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -23,6 +26,7 @@ import kotlinx.coroutines.launch
 class ProductosViewModel(
 
     private val productoRepositorio: IProductoRepositorio,
+    private val categoriaRepositorio: ICategoriaRepositorio, // Inyeccion
     private val almacenDatos: AlmacenDatos
 
 ) : ViewModel() {
@@ -33,9 +37,13 @@ class ProductosViewModel(
     private val actualizarProductoUseCase = ActualizarProductoUseCase(productoRepositorio, almacenDatos)
     private val borrarProductoUseCase = BorrarProductoUseCase(productoRepositorio, almacenDatos)
     private val activarProductoUseCase = ActivarProductoUseCase(productoRepositorio, almacenDatos)
+    private val listarCategoriasUseCase = ListarCategoriasUseCase(categoriaRepositorio, almacenDatos) // UC de categorias
 
     private val _items = MutableStateFlow<MutableList<ProductoDTO>>(mutableListOf())
     val items: StateFlow<List<ProductoDTO>> = _items.asStateFlow()
+
+    private val _categories = MutableStateFlow<List<CategoriaDTO>>(emptyList())
+    val categories: StateFlow<List<CategoriaDTO>> = _categories.asStateFlow()
 
     private val _selected = MutableStateFlow<ProductoDTO?>(null)
     val selected = _selected.asStateFlow()
@@ -44,6 +52,9 @@ class ProductosViewModel(
         viewModelScope.launch {
             val list = listarProductosUseCase.invoke()
             _items.value = list.toMutableList()
+
+            // Cargar categorias
+            _categories.value = listarCategoriasUseCase.invoke()
         }
     }
 
@@ -91,7 +102,7 @@ class ProductosViewModel(
     private fun add(formState: ProductoFormState) {
         val command = CrearProductoCommand(
             id = "", // Generado dentro
-            categoria_id = formState.categoria_id.ifBlank { "1" }, // Defecto
+            categoria_id = formState.categoria_id.ifBlank { "1" },
             name = formState.name,
             description = formState.description,
             price = formState.price.toDouble(),
