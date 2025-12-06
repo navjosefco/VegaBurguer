@@ -33,6 +33,7 @@ CREATE TABLE producto (
 CREATE TABLE pedido (
     id VARCHAR(36) PRIMARY KEY,
     status VARCHAR(20) NOT NULL, 
+    customer_name VARCHAR(100),
     total_price DECIMAL(10, 2) NOT NULL,
     dependiente_id VARCHAR(36), 
     FOREIGN KEY (dependiente_id) REFERENCES dependiente(id)
