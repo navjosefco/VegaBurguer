@@ -32,7 +32,7 @@ public class DependienteDao implements IDao<Dependiente> {
                                         + " where name=?";
 
     private final String deletebyid = "delete from " + table_name 
-                                        + " where id='?'";
+                                        + " where id=?";
 
     private final String insert = "INSERT INTO " + table_name 
                                     + " (id, name, email, password, image_path, enabled, is_admin) " 

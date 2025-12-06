@@ -54,6 +54,7 @@ import ies.sequeros.com.dam.pmdm.administrador.ui.productos.Productos
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.ProductosViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.form.ProductoForm
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.form.ProductoFormViewModel
+import ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel
 
 @Suppress("ViewModelConstructorInComposable")
 @Composable
@@ -63,6 +64,7 @@ fun MainAdministrador(
     administradorViewModel: AdministradorViewModel,
     dependientesViewModel: DependientesViewModel,
     productosViewModel: ProductosViewModel,
+    categoriasViewModel: CategoriasViewModel,
     onExit: () -> Unit
 ) {
     val navController = rememberNavController()
@@ -228,6 +230,29 @@ fun MainAdministrador(
                     {
                         productosViewModel.save(it)
                         navController.popBackStack()
+                    }
+                )
+            }
+            
+            composable(AdminRoutes.Categorias) {
+                ies.sequeros.com.dam.pmdm.administrador.ui.categorias.Categorias(
+                    categoriasViewModel = categoriasViewModel, 
+                    onSelectItem = {
+                        categoriasViewModel.setSelectedCategoria(it)
+                        navController.navigate(AdminRoutes.Categoria) {
+                            launchSingleTop = true
+                        }
+                    }
+                )
+            }
+
+            composable(AdminRoutes.Categoria) {
+                ies.sequeros.com.dam.pmdm.administrador.ui.categorias.form.CategoriaForm(
+                    categoriasViewModel = categoriasViewModel,
+                    onClose = { navController.popBackStack() },
+                    onConfirm = { 
+                        categoriasViewModel.save(it)
+                        navController.popBackStack() 
                     }
                 )
             }
