@@ -7,7 +7,11 @@ data class LineaPedido(
     val productoId: String,
     val quantity: Int,
     val unitPrice: Double
-)
+){
+
+    val total: Double
+        get() = quantity * unitPrice
+}
 /*
 CREATE TABLE linea_pedido (
     id VARCHAR(36) PRIMARY KEY,
