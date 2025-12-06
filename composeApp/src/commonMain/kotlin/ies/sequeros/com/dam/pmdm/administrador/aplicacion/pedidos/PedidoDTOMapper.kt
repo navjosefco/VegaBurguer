@@ -5,11 +5,12 @@ import ies.sequeros.com.dam.pmdm.administrador.aplicacion.pedidos.listar.PedidoD
 import ies.sequeros.com.dam.pmdm.administrador.modelo.LineaPedido
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Pedido
 
-fun LineaPedido.toDTO(productoNombre: String = "") = LineaPedidoDTO(
+fun LineaPedido.toDTO(productoNombre: String = "", productoImage: String = "") = LineaPedidoDTO(
 
     id = id,
     productoId = productoId,
     productoNombre = productoNombre,
+    productoImage = productoImage,
     quantity = quantity,
     unitPrice = unitPrice,
     total = total
