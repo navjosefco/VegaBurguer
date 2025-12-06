@@ -27,21 +27,21 @@ import ies.sequeros.com.dam.pmdm.administrador.infraestructura.memoria.FileDepen
 import ies.sequeros.com.dam.pmdm.administrador.infraestructura.memoria.MemDependienteRepository
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.AlmacenDatos
 import ies.sequeros.com.dam.pmdm.administrador.modelo.IDependienteRepositorio
-
+import ies.sequeros.com.dam.pmdm.administrador.modelo.ICategoriaRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.modelo.IProductoRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.MainAdministrador
 import ies.sequeros.com.dam.pmdm.administrador.ui.MainAdministradorViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.DependientesViewModel
-
-import org.jetbrains.compose.resources.painterResource
-import org.jetbrains.compose.ui.tooling.preview.Preview
-
-import vegaburguer.composeapp.generated.resources.Res
-import vegaburguer.composeapp.generated.resources.compose_multiplatform
+import ies.sequeros.com.dam.pmdm.administrador.ui.productos.ProductosViewModel
 
 @Suppress("ViewModelConstructorInComposable")
 @Composable
 
-fun App( dependienteRepositorio : IDependienteRepositorio,almacenImagenes:AlmacenDatos) {
+fun App( dependienteRepositorio : IDependienteRepositorio,
+         productoRepositorio: IProductoRepositorio,
+         categoriaRepositorio: ICategoriaRepositorio,
+         almacenImagenes:AlmacenDatos) {
 
     //view model
     val appViewModel= viewModel {  AppViewModel() }
@@ -50,6 +50,20 @@ fun App( dependienteRepositorio : IDependienteRepositorio,almacenImagenes:Almace
     val dependientesViewModel = viewModel{ DependientesViewModel(
         dependienteRepositorio, almacenImagenes
     )}
+    val productosViewModel = viewModel {
+        ProductosViewModel(
+            productoRepositorio,
+            categoriaRepositorio,
+            almacenImagenes
+        )
+    }
+    val categoriasViewModel = viewModel {
+        CategoriasViewModel(
+            categoriaRepositorio,
+            almacenImagenes
+        )
+    }
+
 
     appViewModel.setWindowsAdatativeInfo( currentWindowAdaptiveInfo())
     val navController= rememberNavController()
@@ -67,7 +81,7 @@ fun App( dependienteRepositorio : IDependienteRepositorio,almacenImagenes:Almace
             }
             composable (AppRoutes.Administrador){
                 MainAdministrador(appViewModel,mainViewModel,administradorViewModel,
-                    dependientesViewModel,{
+                    dependientesViewModel, productosViewModel, categoriasViewModel, {
                     navController.popBackStack()
                 })
             }

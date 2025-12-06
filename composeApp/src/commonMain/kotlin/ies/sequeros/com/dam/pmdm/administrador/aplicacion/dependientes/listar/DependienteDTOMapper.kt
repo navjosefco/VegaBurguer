@@ -16,7 +16,6 @@ fun DependienteDTO.toDependiente()= Dependiente(
     email = email,
     password = "",
     imagePath=imagePath,
-
     enabled ,
     isAdmin = isAdmin
 )
