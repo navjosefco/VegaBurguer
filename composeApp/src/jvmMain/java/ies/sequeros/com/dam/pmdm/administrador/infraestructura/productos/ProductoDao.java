@@ -53,7 +53,7 @@ public class ProductoDao implements IDao<Producto>{
     //Actualizar un producto
     private final String update = 
         "UPDATE " + table_name
-        + " SET categoria_id = ?, name = ?, description = ?, price = ?, image_path = ?, enabled =?"
+        + " SET categoria_id = ?, name = ?, description = ?, price = ?, image_path = ?, enabled = ?"
         + " WHERE id = ?;";
 
     //Eliminar el producto

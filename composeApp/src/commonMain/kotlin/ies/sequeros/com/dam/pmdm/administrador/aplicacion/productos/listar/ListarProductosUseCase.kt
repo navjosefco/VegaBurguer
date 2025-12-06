@@ -1,5 +1,6 @@
 package ies.sequeros.com.dam.pmdm.administrador.aplicacion.productos.listar
 
+import ies.sequeros.com.dam.pmdm.administrador.aplicacion.categorias.listar.toDTO
 import ies.sequeros.com.dam.pmdm.administrador.aplicacion.dependientes.listar.DependienteDTO
 import ies.sequeros.com.dam.pmdm.administrador.modelo.IProductoRepositorio
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.AlmacenDatos
@@ -12,8 +13,12 @@ class ListarProductosUseCase(
 
     suspend fun invoke(): List<ProductoDTO> {
 
-        val items = productoRepo.getAll().map { it.toDTO(if(it.image_path.isEmpty()) "" else almacenDatos.getAppDataDir()+"/productos/")}
-        return items
+        /*val items = productoRepo.getAll().map { it.toDTO(if(it.image_path.isEmpty()) "" else almacenDatos.getAppDataDir()+"/productos/")}
+        return items*/
+
+        return productoRepo.getAll().map {
+            it.toDTO(almacenDatos.getAppDataDir() + "/productos/")
+        }
     }
 
 }

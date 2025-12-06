@@ -12,19 +12,18 @@ class CrearCategoriaUseCase(
     private val almacenDatos: AlmacenDatos
 ) {
     suspend fun invoke(command: CrearCategoriaCommand): CategoriaDTO {
-        // 1. Validar nombre único
+
         val existing = repositorio.getByName(command.name)
+
         if (existing != null) {
+
             throw Exception("Ya existe una categoría con el nombre ${command.name}")
         }
 
-        // 2. Generar ID
         val id = generateUUID()
 
-        // 3. Copiar imagen al almacén (Lógica estricta de copia)
         val newImagePath = almacenDatos.copy(command.image_path, id, "/categorias/")
 
-        // 4. Crear Entidad
         val categoria = Categoria(
             id = id,
             name = command.name,
@@ -32,8 +31,7 @@ class CrearCategoriaUseCase(
             enabled = command.enabled
         )
 
-        // 5. Persistir
-        repositorio.add(categoria) // Changed from save() to add() to match interface
-        return categoria.toDTO(almacenDatos.getAppDataDir() + "/categorias/") // Manually mapping because add returns Unit
+        repositorio.add(categoria)
+        return categoria.toDTO(almacenDatos.getAppDataDir() + "/categorias/")
     }
 }

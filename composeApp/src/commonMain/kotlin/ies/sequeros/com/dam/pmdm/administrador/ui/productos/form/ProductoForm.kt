@@ -16,6 +16,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.ProductosViewModel
 import ies.sequeros.com.dam.pmdm.commons.ui.ImagenDesdePath
 import ies.sequeros.com.dam.pmdm.commons.ui.SelectorImagenComposable
+import ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasComboBox
 
 import vegaburguer.composeapp.generated.resources.Res
 import vegaburguer.composeapp.generated.resources.plato
@@ -59,6 +60,17 @@ fun ProductoForm(
                     style = MaterialTheme.typography.headlineSmall
                 )
             }
+
+            // Categoría
+            val categories by productosViewModel.categories.collectAsState()
+            val currentCategory = categories.find { it.id == state.categoria_id }
+
+            CategoriasComboBox(
+                categorias = categories,
+                current = currentCategory,
+                onSelect = { productoFormularioViewModel.onCategoriaChange(it.id) }
+            )
+            state.categoriaIdError?.let { Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.labelSmall) }
 
             // Campos
             OutlinedTextField(

@@ -53,6 +53,7 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
     val productosViewModel = viewModel {
         ProductosViewModel(
             productoRepositorio,
+            categoriaRepositorio,
             almacenImagenes
         )
     }
