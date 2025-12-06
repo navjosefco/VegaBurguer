@@ -6,7 +6,9 @@ data class Pedido (
     val status: String,
     val customerName: String?,
     val totalPrice: Double,
-    val dependienteId: String?
+    val dependienteId: String?,
+
+    val lineas: List<LineaPedido> = emptyList() //Lista de los detalles de cada pedido
 )
 
 /*
