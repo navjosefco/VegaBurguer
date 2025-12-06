@@ -1,4 +1,4 @@
-package ies.sequeros.com.dam.pmdm.administrador.pedidos.listar
+package ies.sequeros.com.dam.pmdm.administrador.aplicacion.pedidos.listar
 
 data class LineaPedidoDTO(
 
