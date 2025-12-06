@@ -288,14 +288,15 @@ public class ProductoDao implements IDao<Producto>{
 
         try{
             final PreparedStatement pst = conn.getConnection().prepareStatement(update);
-
-            pst.setString(1, producto.getId());
-            pst.setString(2, producto.getCategoria_id());
-            pst.setString(3, producto.getName());
-            pst.setString(4, producto.getDescription());
-            pst.setDouble(5, producto.getPrice());
-            pst.setString(6, producto.getImage_path());
-            pst.setBoolean(7, producto.getEnabled());
+            
+            /*pst.setString(1, producto.getId()); */
+            pst.setString(1, producto.getCategoria_id());
+            pst.setString(2, producto.getName());
+            pst.setString(3, producto.getDescription());
+            pst.setDouble(4, producto.getPrice());
+            pst.setString(5, producto.getImage_path());
+            pst.setBoolean(6, producto.getEnabled());
+            pst.setString(7, producto.getId());
 
             pst.executeUpdate();
 
