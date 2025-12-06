@@ -56,7 +56,9 @@ class CategoriasViewModel(
     fun delete(item: CategoriaDTO) {
         viewModelScope.launch {
             borrarUC.invoke(item.id)
-            _items.update { list -> list.filterNot { it.id == item.id }.toMutableList() }
+            /*_items.update { list -> list.filterNot { it.id == item.id }.toMutableList() } */
+            // Recargar lista para verificar borrado (evitar falso positivo si hay FK)
+            _items.value = listarUC.invoke().toMutableList()
         }
     }
 
