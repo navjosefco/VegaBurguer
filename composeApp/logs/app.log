@@ -5323,3 +5323,11 @@ dic 06, 2025 2:01:49 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestruct
 INFORMACIÓN: Ejecutando SQL: INSERT INTO producto (id, categoria_id, name, description, price, image_path, enabled) VALUES (?, ?, ?, ?, ?, ?, ?); | Parametros: [id=72d54b70-f5f3-4072-8bbb-618f6b27347f] [categoria_id=35329ffb-3c01-447d-8036-3e4a41f6ab5b] [name=asdasd] [description=aaaaaaaaaaaaaaaa] [price=983.0] [image_path=72d54b70-f5f3-4072-8bbb-618f6b27347f.png] [enabled=true]
 dic 06, 2025 2:01:57 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
 INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 07, 2025 2:21:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 07, 2025 2:21:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 07, 2025 2:21:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 07, 2025 2:21:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
