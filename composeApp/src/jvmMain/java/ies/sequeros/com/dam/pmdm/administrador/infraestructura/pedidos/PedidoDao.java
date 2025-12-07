@@ -50,12 +50,12 @@ public class PedidoDao implements IDao<Pedido> {
 
     private final String INSERT_LINEA =
             "INSERT INTO linea_"+table_name
-                    +" (id, pedido_id, producto_id, quantity, unit_price"
+                    +" (id, pedido_id, producto_id, quantity, unit_price)"
                     +" VALUES (?, ?, ?, ?, ?)";
 
     private final String DELETE_LINEA =
             "DELETE FROM linea_"+table_name
-                    +" WHERE id = ?";
+                    +" WHERE pedido_id = ?";
 
     private final String SELECT_LINEA_PEDIDO =
             "SELECT * FROM linea_"+table_name
@@ -157,7 +157,7 @@ public class PedidoDao implements IDao<Pedido> {
         ArrayList<Pedido> listaPedidos = new ArrayList<>();
 
         try(PreparedStatement pst =
-            conn.getConnection().prepareStatement(SELECT_LINEA_PEDIDO)){
+            conn.getConnection().prepareStatement(SELECT_ALL_PEDIDO)){
 
             final ResultSet rs = pst.executeQuery();
 

@@ -55,6 +55,11 @@ import ies.sequeros.com.dam.pmdm.administrador.ui.productos.ProductosViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.form.ProductoForm
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.form.ProductoFormViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel
+import ies.sequeros.com.dam.pmdm.administrador.ui.pedidos.PedidosViewModel
+import ies.sequeros.com.dam.pmdm.administrador.ui.pedidos.PedidosScreen
+import ies.sequeros.com.dam.pmdm.administrador.ui.pedidos.form.PedidoForm
+import ies.sequeros.com.dam.pmdm.administrador.ui.pedidos.form.PedidoFormViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Suppress("ViewModelConstructorInComposable")
 @Composable
@@ -65,6 +70,7 @@ fun MainAdministrador(
     dependientesViewModel: DependientesViewModel,
     productosViewModel: ProductosViewModel,
     categoriasViewModel: CategoriasViewModel,
+    pedidosViewModel: PedidosViewModel,
     onExit: () -> Unit
 ) {
     val navController = rememberNavController()
@@ -122,13 +128,13 @@ fun MainAdministrador(
             ItemOption(
                 Icons.AutoMirrored.Filled.FactCheck,
                 {
-                    navController.navigate(AdminRoutes.Pedido) {
+                    navController.navigate(AdminRoutes.Pedidos) {
                         //
                         launchSingleTop = true
                         popUpTo(AdminRoutes.Main)
                     }
                 },
-                "Users  Admin",
+                "Pedidos",
                 true
             ),
 
@@ -253,6 +259,39 @@ fun MainAdministrador(
                     onConfirm = { 
                         categoriasViewModel.save(it)
                         navController.popBackStack() 
+                    }
+                )
+            }
+
+            composable(AdminRoutes.Pedidos) {
+                PedidosScreen(
+                    viewModel = pedidosViewModel,
+                    onEditPedido = { pedido ->
+                        pedidosViewModel.setSelectedPedido(pedido)
+                        navController.navigate(AdminRoutes.Pedido) {
+                            launchSingleTop = true
+                        }
+                    }
+                )
+            }
+
+            composable(AdminRoutes.Pedido) {
+                val pedidoFormViewModel = viewModel {
+                    PedidoFormViewModel(
+                        pedido = pedidosViewModel.selected.value,
+                        onSuccess = {
+                            pedidosViewModel.update(it)
+                            navController.popBackStack()
+                        }
+                    )
+                }
+
+                PedidoForm(
+                    viewModel = pedidoFormViewModel,
+                    onClose = { navController.popBackStack() },
+                    onSave = {
+                        // PedidoFormViewModel handles the update via callback
+                        // We could adding extra UI feedback here if needed
                     }
                 )
             }
