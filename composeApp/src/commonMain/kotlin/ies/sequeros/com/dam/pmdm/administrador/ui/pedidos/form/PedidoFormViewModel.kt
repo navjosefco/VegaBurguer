@@ -60,24 +60,21 @@ class PedidoFormViewModel(
     }
 
 
+    fun onStatusChange(newStatus: String) {
+        _uiState.value = _uiState.value.copy(status = newStatus)
+    }
+
+    // Nota: El administrador NO suele modificar líneas de pedido, solo el estado.
+    // Dejamos estos métodos por si en el futuro se permite corrección de pedidos.
     fun addLinea(linea: LineaPedidoDTO){
-
-        val newLineas = _uiState.value.lineas.filterNot { it == linea }
-
-        _uiState.value = _uiState.value.copy(
-            lineas = newLineas,
-            lineasError = validarLinea(linea)
-        )
+        // ... (Lógica original preservada o simplificada si no se usa)
+        val newLineas = _uiState.value.lineas + linea
+        _uiState.value = _uiState.value.copy(lineas = newLineas)
     }
 
     fun removeLinea(linea: LineaPedidoDTO){
-
         val newLineas = _uiState.value.lineas.filterNot { it == linea }
-
-        _uiState.value = _uiState.value.copy(
-            lineas = newLineas,
-            lineasError = validarLinea(linea)
-        )
+        _uiState.value = _uiState.value.copy(lineas = newLineas)
     }
 
     //Hay pocos datos que cambien, no voy a hacer doble confirmacion
