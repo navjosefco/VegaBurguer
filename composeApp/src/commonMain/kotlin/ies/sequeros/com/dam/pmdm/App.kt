@@ -27,6 +27,8 @@ import ies.sequeros.com.dam.pmdm.administrador.infraestructura.memoria.FileDepen
 import ies.sequeros.com.dam.pmdm.administrador.infraestructura.memoria.MemDependienteRepository
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.AlmacenDatos
 import ies.sequeros.com.dam.pmdm.administrador.modelo.IDependienteRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.modelo.IPedidoRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.ui.pedidos.PedidosViewModel
 import ies.sequeros.com.dam.pmdm.administrador.modelo.ICategoriaRepositorio
 import ies.sequeros.com.dam.pmdm.administrador.modelo.IProductoRepositorio
 import ies.sequeros.com.dam.pmdm.administrador.ui.categorias.CategoriasViewModel
@@ -41,6 +43,7 @@ import ies.sequeros.com.dam.pmdm.administrador.ui.productos.ProductosViewModel
 fun App( dependienteRepositorio : IDependienteRepositorio,
          productoRepositorio: IProductoRepositorio,
          categoriaRepositorio: ICategoriaRepositorio,
+         pedidoRepositorio: IPedidoRepositorio,
          almacenImagenes:AlmacenDatos) {
 
     //view model
@@ -63,6 +66,13 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
             almacenImagenes
         )
     }
+    val pedidosViewModel = viewModel {
+        PedidosViewModel(
+            pedidoRepositorio,
+            productoRepositorio,
+            almacenImagenes
+        )
+    }
 
 
     appViewModel.setWindowsAdatativeInfo( currentWindowAdaptiveInfo())
@@ -81,7 +91,7 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
             }
             composable (AppRoutes.Administrador){
                 MainAdministrador(appViewModel,mainViewModel,administradorViewModel,
-                    dependientesViewModel, productosViewModel, categoriasViewModel, {
+                    dependientesViewModel, productosViewModel, categoriasViewModel, pedidosViewModel, {
                     navController.popBackStack()
                 })
             }
