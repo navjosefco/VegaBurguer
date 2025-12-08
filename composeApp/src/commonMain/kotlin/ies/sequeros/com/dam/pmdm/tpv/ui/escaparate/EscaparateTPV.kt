@@ -17,6 +17,10 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -29,7 +33,6 @@ import ies.sequeros.com.dam.pmdm.tpv.ui.TPVViewModel
 
 @Composable
 fun EscaparateTPV(
-
     tpvViewModel: TPVViewModel,
     escaparateViewModel: EscaparateViewModel,
     onCancelarPedido: () -> Unit,
@@ -37,12 +40,59 @@ fun EscaparateTPV(
 ) {
     val tpvState by tpvViewModel.uiState.collectAsState()
     val escaparateState by escaparateViewModel.uiState.collectAsState()
+    
+    // Estado local para mostrar el diálogo del carrito
+    var showCarritoDialog by remember { mutableStateOf(false) }
+
+    if (showCarritoDialog) {
+        AlertDialog(
+            onDismissRequest = { showCarritoDialog = false },
+            title = { Text("Carrito de Compra") },
+            text = {
+                LazyColumn {
+                    items(tpvState.items) { item ->
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(4.dp),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(item.productoNombre, modifier = Modifier.weight(1f))
+                            Text("x${item.quantity} (${item.total}€)", fontWeight = FontWeight.Bold)
+                        }
+                        HorizontalDivider()
+                    }
+                    item {
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(top = 16.dp),
+                            horizontalArrangement = Arrangement.End
+                        ) {
+                            Text("TOTAL: ${tpvState.total} €", style = MaterialTheme.typography.headlineSmall)
+                        }
+                    }
+                }
+            },
+            confirmButton = {
+                Button(onClick = {
+                    showCarritoDialog = false
+                    onVerCarrito() // Llama a confirmarPedido
+                }) {
+                    Text("CONFIRMAR Y PAGAR")
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showCarritoDialog = false }) {
+                    Text("SEGUIR COMPRANDO")
+                }
+            }
+        )
+    }
 
     Column(Modifier.fillMaxSize()) {
         
         // --- HEADER ---
         Surface(
-            color = MaterialTheme.colorScheme.primaryContainer,
+            color = MaterialTheme.colorScheme.primary, // Usar color primario del tema
+            contentColor = MaterialTheme.colorScheme.onPrimary,
             modifier = Modifier.fillMaxWidth().height(64.dp)
         ) {
             Row(
@@ -55,7 +105,13 @@ fun EscaparateTPV(
                     modifier = Modifier.weight(1f)
                 )
 
-                Button(onClick = onVerCarrito) {
+                ElevatedButton(
+                    onClick = { showCarritoDialog = true }, // Abrir diálogo
+                    colors = ButtonDefaults.elevatedButtonColors(
+                        containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                        contentColor = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                ) {
                     Icon(Icons.Default.ShoppingCart, contentDescription = null)
                     Spacer(Modifier.width(8.dp))
                     Text("${tpvState.itemCount} prod. | ${tpvState.total} €")
@@ -68,7 +124,8 @@ fun EscaparateTPV(
             
             // PANEL IZQUIERDO: CATEGORÍAS
             LazyColumn(
-                modifier = Modifier.weight(0.25f).fillMaxHeight().background(Color.LightGray.copy(alpha=0.2f))
+                modifier = Modifier.weight(0.25f).fillMaxHeight()
+                    .background(MaterialTheme.colorScheme.surfaceVariant) // Color de tema
             ) {
                 items(escaparateState.categorias) { cat ->
                     CategoriaItem(
@@ -107,7 +164,8 @@ fun EscaparateTPV(
         // --- FOOTER ---
         Surface(
             shadowElevation = 8.dp,
-            modifier = Modifier.fillMaxWidth().height(64.dp)
+            modifier = Modifier.fillMaxWidth().height(64.dp),
+            color = MaterialTheme.colorScheme.surface
         ) {
             Row(
                 modifier = Modifier.padding(16.dp),
@@ -115,16 +173,16 @@ fun EscaparateTPV(
             ) {
                 OutlinedButton(
                     onClick = onCancelarPedido,
-                    colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Red)
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.error)
                 ) {
                     Text("CANCELAR PEDIDO")
                 }
 
                 Button(
-                    onClick = onVerCarrito,
+                    onClick = { showCarritoDialog = true }, // Abrir diálogo también aquí
                     enabled = tpvState.items.isNotEmpty()
                 ) {
-                    Text("CONFIRMAR Y VER CARRITO")
+                    Text("VER CARRITO")
                 }
             }
         }
@@ -134,7 +192,8 @@ fun EscaparateTPV(
 @Composable
 fun CategoriaItem(categoria: Categoria, isSelected: Boolean, onClick: () -> Unit) {
     Surface(
-        color = if (isSelected) MaterialTheme.colorScheme.secondaryContainer else Color.Transparent,
+        color = if (isSelected) MaterialTheme.colorScheme.primaryContainer else Color.Transparent, // Tema
+        contentColor = if (isSelected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)
     ) {
         Text(
@@ -153,26 +212,27 @@ fun ProductoTPVCard(
     cantidadEnCarrito: Int
 ) {
     Card(
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface) // Tema
     ) {
         Column(
             modifier = Modifier.padding(8.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Placeholder de imagen
-            Box(Modifier.size(80.dp).background(Color.Gray, RoundedCornerShape(4.dp)))
+            Box(Modifier.size(80.dp).background(MaterialTheme.colorScheme.secondaryContainer, RoundedCornerShape(4.dp)))
             
             Spacer(Modifier.height(8.dp))
             Text(producto.name, style = MaterialTheme.typography.titleSmall, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text("${producto.price} €", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
+            Text("${producto.price} €", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
 
             Spacer(Modifier.height(8.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (cantidadEnCarrito > 0) {
-                    IconButton(onClick = onRemove) { Icon(Icons.Default.Remove, null) }
+                    IconButton(onClick = onRemove) { Icon(Icons.Default.Remove, contentDescription = null, tint = MaterialTheme.colorScheme.primary) }
                     Text(cantidadEnCarrito.toString(), style = MaterialTheme.typography.titleMedium)
                 }
-                IconButton(onClick = onAdd) { Icon(Icons.Default.Add, null) }
+                IconButton(onClick = onAdd) { Icon(Icons.Default.Add, contentDescription = null, tint = MaterialTheme.colorScheme.primary) }
             }
         }
     }

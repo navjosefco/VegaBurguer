@@ -1,6 +1,7 @@
 package ies.sequeros.com.dam.pmdm.tpv.ui
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import ies.sequeros.com.dam.pmdm.administrador.modelo.LineaPedido
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Producto
 import ies.sequeros.com.dam.pmdm.tpv.aplicacion.pedidos.registrar.RegistrarPedidoClienteCommand
@@ -9,6 +10,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 
 class TPVViewModel(
     private val registrarPedidoClienteUseCase: RegistrarPedidoClienteUseCase
@@ -81,7 +83,7 @@ class TPVViewModel(
         }
     }
     
-    suspend fun confirmarPedido() {
+    fun confirmarPedido(onSuccess: () -> Unit = {}) {
         val currentState = _uiState.value
         if(currentState.items.isEmpty()) return
         
@@ -89,10 +91,10 @@ class TPVViewModel(
             clienteNombre = currentState.customerName,
             itemsCarrito = getLineasPedidoDominio()
         )
-        
-        registrarPedidoClienteUseCase(command)
-        
-        // Tras confirmar, reseteamos (o navegamos, eso lo controla la UI)
-        resetSession()
+        viewModelScope.launch {
+             registrarPedidoClienteUseCase(command)
+             resetSession()
+             onSuccess()
+        }
     }
 }
