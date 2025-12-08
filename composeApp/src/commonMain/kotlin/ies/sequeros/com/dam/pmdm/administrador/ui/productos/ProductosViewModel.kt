@@ -144,4 +144,11 @@ class ProductosViewModel(
             }
         }
     }
+
+    fun refreshCategorias(){
+
+        viewModelScope.launch {
+            _categories.value = listarCategoriasUseCase.invoke()
+        }
+    }
 }
