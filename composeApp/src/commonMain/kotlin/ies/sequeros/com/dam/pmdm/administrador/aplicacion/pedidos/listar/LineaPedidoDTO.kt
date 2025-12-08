@@ -1,0 +1,12 @@
+package ies.sequeros.com.dam.pmdm.administrador.aplicacion.pedidos.listar
+
+data class LineaPedidoDTO(
+
+    val id: String,
+    val productoId: String,
+    val productoNombre: String = "",
+    val productoImage: String = "",
+    val quantity: Int,
+    val unitPrice: Double,
+    val total: Double
+)

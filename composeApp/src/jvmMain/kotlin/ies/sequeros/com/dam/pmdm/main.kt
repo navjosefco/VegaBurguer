@@ -16,6 +16,10 @@ import ies.sequeros.com.dam.pmdm.commons.infraestructura.DataBaseConnection
 import java.io.FileInputStream
 import java.util.logging.LogManager
 
+import ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.BBDDRepositorioPedidoJava
+import ies.sequeros.com.dam.pmdm.administrador.modelo.IPedidoRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDPedidoRepository
+
 fun main() = application {
 
     //Aqui se inicializa la base de datos con los datos del archivo app.properties
@@ -37,6 +41,9 @@ fun main() = application {
     val categoriaRepositorioJava = BBDDRepositorioCategoriaJava(connection)
     val categoriaRepositorio: ICategoriaRepositorio = BBDDCategoriaRepository(categoriaRepositorioJava)
 
+    val pedidoRepositorioJava = BBDDRepositorioPedidoJava(connection)
+    val pedidoRepositorio: IPedidoRepositorio = BBDDPedidoRepository(pedidoRepositorioJava)
+
     //Se inicializa el logging con el archivo logging.properties
     configureExternalLogging("./logging.properties")
 
@@ -49,7 +56,7 @@ fun main() = application {
             exitApplication()},
         title = "VegaBurguer",
     ) {
-        App(dependienteRepositorio, productoRepositorio, categoriaRepositorio, AlmacenDatos())
+        App(dependienteRepositorio, productoRepositorio, categoriaRepositorio, pedidoRepositorio, AlmacenDatos())
     }
 }
 
