@@ -6101,3 +6101,1016 @@ dic 07, 2025 11:21:44 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestruc
 INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
 dic 07, 2025 11:21:44 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao update
 INFORMACIÓN: Ejecutando SQL: INSERT INTO producto (id, categoria_id, name, description, price, image_path, enabled) VALUES (?, ?, ?, ?, ?, ?, ?); | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61] [categoria_id=62c8f4d2-0b8c-4c77-8a66-4a6ef33a9b8f] [name=Coca-Cola] [description=Refresco.] [price=2.5] [image_path=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61.png] [enabled=true]
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8e2cb5f3-9a41-4d20-9dbe-9b3f7bc8a0ea]
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=d0f4dcbc-43a4-4f91-a789-5e014f0c9bcf]
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3ab0c30-0e3a-4b32-a122-9d5a1e074a55]
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=51c0fb4b-2aee-4c8a-9dfb-021ed0df1e5e]
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:09:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:11 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:11 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:12 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:13 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:15 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:15 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:16 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:20 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:10:30 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO pedido (id, status, customer_name, total_price, dependiente_id) VALUES (?, ?, ?, ?, ?) | Params: [1]=1d3cd054-629e-4dac-8cf8-3ab5bd5f9a66, [2]=PENDIENTE, [3]=kevin, [4]=6.0, [5]=null]
+dic 08, 2025 2:10:30 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO linea_pedido (id, pedido_id, producto_id, quantity, unit_price) VALUES (?, ?, ?, ?, ?) | Lineas insertadas: 1
+dic 08, 2025 2:10:30 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Pedido y lineas insertadas correctamente
+dic 08, 2025 2:10:34 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:10:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:10:38 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:10:39 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:10:55 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:10:56 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$1$2$1$1$1$1$1.invoke(EscaparateTPV.kt:77)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=1d3cd054-629e-4dac-8cf8-3ab5bd5f9a66]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8e2cb5f3-9a41-4d20-9dbe-9b3f7bc8a0ea]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=d0f4dcbc-43a4-4f91-a789-5e014f0c9bcf]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3ab0c30-0e3a-4b32-a122-9d5a1e074a55]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=51c0fb4b-2aee-4c8a-9dfb-021ed0df1e5e]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:11:00 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:11:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO pedido (id, status, customer_name, total_price, dependiente_id) VALUES (?, ?, ?, ?, ?) | Params: [1]=247ccf85-3a55-4571-ba54-3a823b61d49b, [2]=PENDIENTE, [3]=kk, [4]=12.0, [5]=null]
+dic 08, 2025 2:11:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO linea_pedido (id, pedido_id, producto_id, quantity, unit_price) VALUES (?, ?, ?, ?, ?) | Lineas insertadas: 1
+dic 08, 2025 2:11:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Pedido y lineas insertadas correctamente
+dic 08, 2025 2:11:29 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+GRAVE: Error al insertar pedido y lienas de pedido
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2022)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao.insert(PedidoDao.java:226)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.BBDDRepositorioPedidoJava.add(BBDDRepositorioPedidoJava.java:22)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDPedidoRepository.add(BBDDPedidoRepository.kt:13)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.pedidos.registrar.RegistrarPedidoClienteUseCase.invoke(RegistrarPedidoClienteUseCase.kt:39)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.TPVViewModel$confirmarPedido$2.invokeSuspend(TPVViewModel.kt:95)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.TPVViewModel.confirmarPedido(TPVViewModel.kt:94)
+	at ies.sequeros.com.dam.pmdm.AppKt$App$1$1$1$4.invoke$lambda$1$0(App.kt:142)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:1965)
+	... 59 more
+
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=1d3cd054-629e-4dac-8cf8-3ab5bd5f9a66]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=247ccf85-3a55-4571-ba54-3a823b61d49b]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8e2cb5f3-9a41-4d20-9dbe-9b3f7bc8a0ea]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=d0f4dcbc-43a4-4f91-a789-5e014f0c9bcf]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3ab0c30-0e3a-4b32-a122-9d5a1e074a55]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=51c0fb4b-2aee-4c8a-9dfb-021ed0df1e5e]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:58:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:58:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:58:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:58:50 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:58:54 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:58:56 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:59:02 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO pedido (id, status, customer_name, total_price, dependiente_id) VALUES (?, ?, ?, ?, ?) | Params: [1]=6c1f4392-c5e7-4881-95a3-928f41c90159, [2]=PENDIENTE, [3]=kevin, [4]=5.5, [5]=null]
+dic 08, 2025 2:59:02 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO linea_pedido (id, pedido_id, producto_id, quantity, unit_price) VALUES (?, ?, ?, ?, ?) | Lineas insertadas: 2
+dic 08, 2025 2:59:03 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Pedido y lineas insertadas correctamente
+dic 08, 2025 2:59:33 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$5$2$1$1$1$1$1.invoke(EscaparateTPV.kt:134)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$5$2$1$1$1$1$1.invoke(EscaparateTPV.kt:134)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:59:38 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+GRAVE: null
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao.getAll(ProductoDao.java:128)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.BBDDRepositorioProductoJava.getAll(BBDDRepositorioProductoJava.java:55)
+	at ies.sequeros.com.dam.pmdm.administrador.infraestructura.BBDDProductoRepository.getAll(BBDDProductoRepository.kt:36)
+	at ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase.invoke(ListarProductosPorCategoriaUseCase.kt:14)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.cargarProductos(EscaparateViewModel.kt:71)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.access$cargarProductos(EscaparateViewModel.kt:15)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel$selectCategoria$2.invokeSuspend(EscaparateViewModel.kt:63)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:375)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:26)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:358)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:134)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:53)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:44)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel.selectCategoria(EscaparateViewModel.kt:62)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$5$2$1$1$1$1$1.invoke(EscaparateTPV.kt:134)
+	at ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPVKt$EscaparateTPV$5$2$1$1$1$1$1.invoke(EscaparateTPV.kt:134)
+	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:1014)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:444)
+	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:430)
+	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:276)
+	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:172)
+	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:118)
+	at androidx.compose.ui.node.RootNodeOwner.onPointerInput-l-3BpVI(RootNodeOwner.skiko.kt:315)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processRelease-l-3BpVI(CanvasLayersComposeScene.skiko.kt:335)
+	at androidx.compose.ui.scene.CanvasLayersComposeSceneImpl.processPointerInputEvent-l-3BpVI(CanvasLayersComposeScene.skiko.kt:236)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke-l-3BpVI(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.scene.BaseComposeScene$inputHandler$2.invoke(BaseComposeScene.skiko.kt:65)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.sendInternal-l-3BpVI(SyntheticEventSender.skiko.kt:197)
+	at androidx.compose.ui.input.pointer.SyntheticEventSender.send-l-3BpVI(SyntheticEventSender.skiko.kt:82)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent--c_cFIg(ComposeSceneInputHandler.skiko.kt:130)
+	at androidx.compose.ui.scene.ComposeSceneInputHandler.onPointerEvent-lDgZiSw(ComposeSceneInputHandler.skiko.kt:91)
+	at androidx.compose.ui.scene.BaseComposeScene.sendPointerEvent-lDgZiSw(BaseComposeScene.skiko.kt:216)
+	at androidx.compose.ui.scene.ComposeScene.sendPointerEvent-lDgZiSw$default(ComposeScene.skiko.kt:202)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:846)
+	at androidx.compose.ui.scene.ComposeSceneMediator_desktopKt.access$onMouseEvent-d-4ec7I(ComposeSceneMediator.desktop.kt:1)
+	at androidx.compose.ui.scene.ComposeSceneMediator.onMouseEvent(ComposeSceneMediator.desktop.kt:454)
+	at androidx.compose.ui.scene.ComposeSceneMediator.access$onMouseEvent(ComposeSceneMediator.desktop.kt:110)
+	at androidx.compose.ui.scene.ComposeSceneMediator$mouseListener$1.mouseReleased(ComposeSceneMediator.desktop.kt:269)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 63 more
+
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=1d3cd054-629e-4dac-8cf8-3ab5bd5f9a66]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=247ccf85-3a55-4571-ba54-3a823b61d49b]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=6c1f4392-c5e7-4881-95a3-928f41c90159]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8e2cb5f3-9a41-4d20-9dbe-9b3f7bc8a0ea]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=d0f4dcbc-43a4-4f91-a789-5e014f0c9bcf]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3ab0c30-0e3a-4b32-a122-9d5a1e074a55]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:59:46 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 2:59:47 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=51c0fb4b-2aee-4c8a-9dfb-021ed0df1e5e]
+dic 08, 2025 2:59:47 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 2:59:47 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 2:59:47 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 3:00:03 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 3:00:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 3:00:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 3:00:19 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO pedido (id, status, customer_name, total_price, dependiente_id) VALUES (?, ?, ?, ?, ?) | Params: [1]=ab22221b-b0ba-43ae-8cbd-8e01043f8d46, [2]=PENDIENTE, [3]=pedido123, [4]=2881.5, [5]=null]
+dic 08, 2025 3:00:19 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO linea_pedido (id, pedido_id, producto_id, quantity, unit_price) VALUES (?, ?, ?, ?, ?) | Lineas insertadas: 3
+dic 08, 2025 3:00:19 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Pedido y lineas insertadas correctamente
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=1d3cd054-629e-4dac-8cf8-3ab5bd5f9a66]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=247ccf85-3a55-4571-ba54-3a823b61d49b]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=6c1f4392-c5e7-4881-95a3-928f41c90159]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8e2cb5f3-9a41-4d20-9dbe-9b3f7bc8a0ea]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=ab22221b-b0ba-43ae-8cbd-8e01043f8d46]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=d0f4dcbc-43a4-4f91-a789-5e014f0c9bcf]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3ab0c30-0e3a-4b32-a122-9d5a1e074a55]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=51c0fb4b-2aee-4c8a-9dfb-021ed0df1e5e]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=30d7d51a-e1bc-4a05-8e8c-cf7c76f3cd61]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=6fc0c2f8-25a6-4bfb-b136-f4e3eb472026]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=4bfc821f-156a-488b-b53b-9913d9e99c7f]
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 08, 2025 3:00:25 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
