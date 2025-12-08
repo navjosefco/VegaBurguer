@@ -41,6 +41,11 @@ fun ProductoForm(
     // Control de imagen local
     val imagePath = remember { mutableStateOf(if (state.imagePath.isNotEmpty()) state.imagePath else "") }
 
+    LaunchedEffect(Unit){
+
+        productosViewModel.refreshCategorias()
+    }
+
     Surface(
         modifier = Modifier.fillMaxWidth().padding(16.dp).defaultMinSize(minHeight = 200.dp),
         tonalElevation = 4.dp,
