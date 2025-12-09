@@ -15,7 +15,15 @@ class LoginViewModel(
 
 ) : ViewModel() {
 
-    private val _uiState = MutableStateFlow(LoginState())
+    // private val _uiState = MutableStateFlow(LoginState())
+    //Borrar esto luego
+    private val _uiState = MutableStateFlow(
+        LoginState(
+            nombre = "admin",
+            contrasenya = "Admin123"
+        )
+    )
+
     val uiState: StateFlow<LoginState> = _uiState.asStateFlow()
 
     fun onNombreChange(nuevoNombre: String) {
