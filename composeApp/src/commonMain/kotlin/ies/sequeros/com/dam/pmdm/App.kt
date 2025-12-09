@@ -96,7 +96,7 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
     // VIEW MODELS TPV
     val tpvViewModel = viewModel { TPVViewModel(registrarPedidoUseCase) }
     val escaparateViewModel = viewModel { 
-        EscaparateViewModel(listarCategoriasUseCase, listarProductosUseCase) 
+        EscaparateViewModel(listarCategoriasUseCase, listarProductosUseCase, almacenImagenes) 
     }
 
     // LOGIN & SESSION
@@ -153,8 +153,12 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
             composable(AppRoutes.TPV_INICIO) {
                 InicioTPV(
                     onComenzar = { nombreCliente ->
-                        tpvViewModel.setCustomerName(nombreCliente)
-                        navController.navigate(AppRoutes.TPV_ESCAPARATE)
+                        if(nombreCliente.isBlank()){
+                            navController.popBackStack()
+                        }else{
+                            tpvViewModel.setCustomerName(nombreCliente)
+                            navController.navigate(AppRoutes.TPV_ESCAPARATE)
+                        }
                     }
                 )
             }

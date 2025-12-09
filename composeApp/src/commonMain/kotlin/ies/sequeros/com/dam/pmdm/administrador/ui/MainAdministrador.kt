@@ -278,20 +278,16 @@ fun MainAdministrador(
             composable(AdminRoutes.Pedido) {
                 val pedidoFormViewModel = viewModel {
                     PedidoFormViewModel(
-                        pedido = pedidosViewModel.selected.value,
-                        onSuccess = {
-                            pedidosViewModel.update(it)
-                            navController.popBackStack()
-                        }
+                        pedido = pedidosViewModel.selected.value
                     )
                 }
 
                 PedidoForm(
                     viewModel = pedidoFormViewModel,
                     onClose = { navController.popBackStack() },
-                    onSave = {
-                        // PedidoFormViewModel handles the update via callback
-                        // We could adding extra UI feedback here if needed
+                    onSave = { state ->
+                        pedidosViewModel.update(state)
+                        navController.popBackStack()
                     }
                 )
             }

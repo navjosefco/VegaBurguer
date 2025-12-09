@@ -14,8 +14,7 @@ import kotlinx.coroutines.launch
 
 class PedidoFormViewModel(
 
-    private val pedido: PedidoDTO?,
-    onSuccess: (PedidoFormState) -> Unit
+    private val pedido: PedidoDTO?
 ): ViewModel() {
 
     private val _uiState = MutableStateFlow(

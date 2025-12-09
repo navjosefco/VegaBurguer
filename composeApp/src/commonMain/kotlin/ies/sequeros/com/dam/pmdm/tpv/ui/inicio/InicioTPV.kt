@@ -33,7 +33,7 @@ fun InicioTPV(
         modifier = Modifier.fillMaxSize().padding(32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
-    ) {
+    ) {        
         Icon(
             imageVector = Icons.Default.RestaurantMenu,
             contentDescription = null,
@@ -74,6 +74,12 @@ fun InicioTPV(
             modifier = Modifier.height(56.dp)
         ) {
             Text("COMENZAR PEDIDO")
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        androidx.compose.material3.TextButton(onClick = { onComenzar("") }) { // "" indicará cancelar/salir
+            Text("VOLVER AL MENÚ")
         }
     }
 }

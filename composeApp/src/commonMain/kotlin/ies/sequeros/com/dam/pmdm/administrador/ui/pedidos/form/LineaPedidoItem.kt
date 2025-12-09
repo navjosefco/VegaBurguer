@@ -30,7 +30,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Composable
 fun LineaPedidoItem(linea: LineaPedidoDTO){
 
-    val imagePath = remember {  mutableStateOf(linea.productoImage)}
+    val imagePath = remember(linea.productoImage) {  mutableStateOf(linea.productoImage)}
 
     Row (
         modifier = Modifier
