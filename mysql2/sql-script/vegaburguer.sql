@@ -6,7 +6,7 @@ CREATE TABLE categoria (
     id VARCHAR(36) PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     image_path VARCHAR(255),
-    enabled BOOLEAN NOT NULL,
+    enabled BOOLEAN NOT NULL
 );
 
 CREATE TABLE dependiente ( 
@@ -50,4 +50,4 @@ CREATE TABLE linea_pedido (
 );
 
 INSERT INTO dependiente (id, name, email, password, image_path, enabled, is_admin)
-VALUES ('admin-001', 'admin', 'admin@vegaburguer.com', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', '', 1, 1);
+VALUES ('fa4cb2c5-08a2-41c3-9f42-84c75fb09ea0', 'admin', 'admin@vegaburguer.com', '1Yi6Y3N9izp+mRRKwt42KlAaTgF7WIk5x+qOlpvjHc19+W7wPKvDVK3Dp5hEb7DP', '358885e9-0b9a-4007-8aac-a81883a77b06.png', 1, 1);
