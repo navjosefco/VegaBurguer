@@ -10,6 +10,6 @@ class ListarCategoriasUseCase(
 ) {
     suspend fun invoke(): List<Categoria> {
         
-        return categoriaRepositorio.getAll()
+        return categoriaRepositorio.getAll().filter { it.enabled }
     }
 }
