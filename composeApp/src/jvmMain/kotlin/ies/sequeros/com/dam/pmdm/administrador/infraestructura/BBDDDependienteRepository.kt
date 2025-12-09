@@ -51,4 +51,8 @@ class BBDDDependienteRepository(
     override suspend fun cambiarContrasenya(id: String, oldPass: String, newPass: String) {
         bbddRepositorioDepedientesJava.cambiarContrasenya(id, oldPass, newPass)
     }
+
+    override suspend fun login(nombre: String, password: String): Dependiente? {
+        return bbddRepositorioDepedientesJava.login(nombre, password)
+    }
 }

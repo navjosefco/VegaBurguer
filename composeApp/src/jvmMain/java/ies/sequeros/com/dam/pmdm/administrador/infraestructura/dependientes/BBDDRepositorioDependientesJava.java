@@ -83,4 +83,8 @@ public  class BBDDRepositorioDependientesJava {
     public void cambiarContrasenya(String id, String oldPass, String newPass) throws Exception {
         this.dao.cambiarContrasenya(id, oldPass, newPass);
     }
+
+    public Dependiente login(String nombre, String password) {
+        return this.dao.login(nombre, password);
+    }
 }

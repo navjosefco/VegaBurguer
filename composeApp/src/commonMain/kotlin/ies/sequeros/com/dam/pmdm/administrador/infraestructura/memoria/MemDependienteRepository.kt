@@ -67,6 +67,11 @@ class MemDependienteRepository: IDependienteRepositorio {
         
     }
 
+    override suspend fun login(nombre: String, password: String): Dependiente? {
+        
+        return null;
+    }
+
 
 
 

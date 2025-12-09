@@ -10,4 +10,5 @@ interface  IDependienteRepositorio {
     suspend fun getById(id:String):Dependiente?
     suspend fun cambiarContrasenya(id: String, oldPass: String, newPass: String)
 
+    suspend fun login(nombre: String, password: String): Dependiente?
 }
