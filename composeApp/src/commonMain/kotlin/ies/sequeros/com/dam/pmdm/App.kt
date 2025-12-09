@@ -43,6 +43,10 @@ import ies.sequeros.com.dam.pmdm.tpv.ui.TPVViewModel
 import ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPV
 import ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel
 import ies.sequeros.com.dam.pmdm.tpv.ui.inicio.InicioTPV
+import ies.sequeros.com.dam.pmdm.administrador.aplicacion.login.LoginUseCase
+import ies.sequeros.com.dam.pmdm.administrador.aplicacion.login.Sesion
+import ies.sequeros.com.dam.pmdm.administrador.ui.login.LoginViewModel
+import ies.sequeros.com.dam.pmdm.administrador.ui.login.LoginScreen
 
 @Suppress("ViewModelConstructorInComposable")
 @Composable
@@ -85,12 +89,19 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
     val listarCategoriasUseCase = ListarCategoriasUseCase(categoriaRepositorio)
     val listarProductosUseCase = ListarProductosPorCategoriaUseCase(productoRepositorio)
     val registrarPedidoUseCase = RegistrarPedidoClienteUseCase(pedidoRepositorio)
+    /*val listarCategoriasUseCase = remember { ListarCategoriasUseCase(categoriaRepositorio) }
+    val listarProductosUseCase = remember { ListarProductosPorCategoriaUseCase(productoRepositorio) }
+    val registrarPedidoUseCase = remember { RegistrarPedidoClienteUseCase(pedidoRepositorio) } */
 
     // VIEW MODELS TPV
     val tpvViewModel = viewModel { TPVViewModel(registrarPedidoUseCase) }
     val escaparateViewModel = viewModel { 
         EscaparateViewModel(listarCategoriasUseCase, listarProductosUseCase) 
     }
+
+    // LOGIN & SESSION
+    val loginUseCase = remember { LoginUseCase(dependienteRepositorio) }
+    val loginViewModel = viewModel { LoginViewModel(loginUseCase) }
 
 
     appViewModel.setWindowsAdatativeInfo( currentWindowAdaptiveInfo())
@@ -104,18 +115,38 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
         ) {
             composable(AppRoutes.Main) {
                 Principal({
-                    navController.navigate(AppRoutes.Administrador)
+                    navController.navigate(AppRoutes.Login) // Al Login
                 },{
                     navController.navigate(AppRoutes.Dependiente) 
                 },{
                     navController.navigate(AppRoutes.TPV_INICIO)
                 })
             }
+            // RUTA LOGIN
+            composable(AppRoutes.Login) {
+                LoginScreen(
+                    viewModel = loginViewModel,
+                    onLoginSuccess = {
+                        navController.navigate(AppRoutes.Administrador) {
+                            popUpTo(AppRoutes.Main)
+                        }
+                    },
+                    onBack = { navController.popBackStack() }
+                )
+            }
+
             composable (AppRoutes.Administrador){
-                MainAdministrador(appViewModel,mainViewModel,administradorViewModel,
-                    dependientesViewModel, productosViewModel, categoriasViewModel, pedidosViewModel, {
-                    navController.popBackStack()
-                })
+                if (Sesion.esAdmin()) {
+                    MainAdministrador(appViewModel,mainViewModel,administradorViewModel,
+                        dependientesViewModel, productosViewModel, categoriasViewModel, pedidosViewModel, {
+                        Sesion.cerrar() // Cerrar sesión al salir
+                        navController.popBackStack()
+                    })
+                } else {
+                    LaunchedEffect(Unit) {
+                        navController.navigate(AppRoutes.Login)
+                    }
+                }
             }
 
             // RUTA TPV: INICIO (Pide nombre)

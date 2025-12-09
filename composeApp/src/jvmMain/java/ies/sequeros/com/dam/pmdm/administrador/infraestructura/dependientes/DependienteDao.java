@@ -335,4 +335,42 @@ public class DependienteDao implements IDao<Dependiente> {
         //Si no devuelvo null
         return sc;
     }
+
+    public Dependiente login(String nombre, String password) {
+        Dependiente dep = null;
+
+        try {
+            // Reutilizamos la constante findbyname que ya busca por nombre
+            final PreparedStatement pst = conn.getConnection().prepareStatement(findbyname);
+            pst.setString(1, nombre);
+            final ResultSet rs = pst.executeQuery();
+
+            while (rs.next()) {
+                dep = registerToObject(rs);
+            }
+
+            pst.close();
+            Logger logger = Logger.getLogger(DependienteDao.class.getName());
+            logger.info("Ejecutando SQL: " + findbyname + " | Parametros: [nombre=" + nombre + "]");
+
+            if(dep !=null){
+                StrongPasswordEncryptor encryptor = new StrongPasswordEncryptor();
+                if (encryptor.checkPassword(password, dep.getPassword())) {
+                    if(dep.getEnabled())
+                        return dep;
+                    else
+                        return null; // Usuario deshabilitado
+                } else {
+                    return null; // Contraseña incorrecta
+                }
+            }
+            return dep;
+
+        } catch (final SQLException ex) {
+            Logger.getLogger(DependienteDao.class.getName()).log(Level.SEVERE,
+                    null, ex);
+        }
+
+        return dep;
+    }
 }

@@ -123,4 +123,10 @@ class FileDependienteRepository(
             throw Exception("Usuario no encontrado")
         }
     }
+
+    override suspend fun login(nombre: String, password: String): Dependiente? {
+    
+        val items = this.getAll()
+        return items.find { it.name == nombre && it.password == password && it.enabled }
+    }
 }
