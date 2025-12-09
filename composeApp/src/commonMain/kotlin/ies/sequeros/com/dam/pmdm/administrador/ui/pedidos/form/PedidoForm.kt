@@ -39,7 +39,7 @@ import androidx.compose.ui.unit.dp
 fun PedidoForm(
     viewModel: PedidoFormViewModel,
     onClose: () -> Unit,
-    onSave: () -> Unit
+    onSave: (PedidoFormState) -> Unit
 ) {
     val state by viewModel.uiState.collectAsState()
     val isValid by viewModel.isFormValid.collectAsState()
@@ -129,8 +129,8 @@ fun PedidoForm(
 
                 Button(
                     onClick = {
-                        viewModel.submit {
-                            onSave()
+                        viewModel.submit { state ->
+                            onSave(state)
                         }
                     },
                     enabled = isValid
