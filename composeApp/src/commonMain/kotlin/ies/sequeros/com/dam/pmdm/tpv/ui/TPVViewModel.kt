@@ -12,9 +12,13 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
+import ies.sequeros.com.dam.pmdm.administrador.modelo.IPedidoRepositorio
+
 class TPVViewModel(
-    private val registrarPedidoClienteUseCase: RegistrarPedidoClienteUseCase
+    private val pedidoRepositorio: IPedidoRepositorio
 ) : ViewModel() {
+
+    private val registrarPedidoClienteUseCase = RegistrarPedidoClienteUseCase(pedidoRepositorio)
 
     private val _uiState = MutableStateFlow(TPVState())
     val uiState: StateFlow<TPVState> = _uiState.asStateFlow()

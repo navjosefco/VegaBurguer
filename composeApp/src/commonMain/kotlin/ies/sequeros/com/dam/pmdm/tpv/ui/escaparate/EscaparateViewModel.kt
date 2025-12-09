@@ -13,13 +13,19 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
+import ies.sequeros.com.dam.pmdm.administrador.modelo.ICategoriaRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.modelo.IProductoRepositorio
+
 class EscaparateViewModel(
 
-    private val listarCategoriasUseCase: ListarCategoriasUseCase,
-    private val listarProductosUseCase: ListarProductosPorCategoriaUseCase,
+    private val categoriaRepositorio: ICategoriaRepositorio,
+    private val productoRepositorio: IProductoRepositorio,
     private val almacenDatos: AlmacenDatos
 
 ) : ViewModel() {
+
+    private val listarCategoriasUseCase = ListarCategoriasUseCase(categoriaRepositorio)
+    private val listarProductosUseCase = ListarProductosPorCategoriaUseCase(productoRepositorio)
 
     private val _uiState = MutableStateFlow(EscaparateState())
     val uiState: StateFlow<EscaparateState> = _uiState.asStateFlow()

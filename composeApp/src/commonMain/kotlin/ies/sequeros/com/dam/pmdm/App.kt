@@ -19,10 +19,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import ies.sequeros.com.dam.pmdm.administrador.AdministradorViewModel
-import ies.sequeros.com.dam.pmdm.administrador.aplicacion.dependientes.BorrarDependienteUseCase
-import ies.sequeros.com.dam.pmdm.administrador.aplicacion.dependientes.actualizar.ActualizarDependienteUseCase
-import ies.sequeros.com.dam.pmdm.administrador.aplicacion.dependientes.crear.CrearDependienteUseCase
-import ies.sequeros.com.dam.pmdm.administrador.aplicacion.dependientes.listar.ListarDependientesUseCase
 import ies.sequeros.com.dam.pmdm.administrador.infraestructura.memoria.FileDependienteRepository
 import ies.sequeros.com.dam.pmdm.administrador.infraestructura.memoria.MemDependienteRepository
 import ies.sequeros.com.dam.pmdm.commons.infraestructura.AlmacenDatos
@@ -36,14 +32,10 @@ import ies.sequeros.com.dam.pmdm.administrador.ui.MainAdministrador
 import ies.sequeros.com.dam.pmdm.administrador.ui.MainAdministradorViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.dependientes.DependientesViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.productos.ProductosViewModel
-import ies.sequeros.com.dam.pmdm.tpv.aplicacion.categorias.listar.ListarCategoriasUseCase
-import ies.sequeros.com.dam.pmdm.tpv.aplicacion.pedidos.registrar.RegistrarPedidoClienteUseCase
-import ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase
 import ies.sequeros.com.dam.pmdm.tpv.ui.TPVViewModel
 import ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateTPV
 import ies.sequeros.com.dam.pmdm.tpv.ui.escaparate.EscaparateViewModel
 import ies.sequeros.com.dam.pmdm.tpv.ui.inicio.InicioTPV
-import ies.sequeros.com.dam.pmdm.administrador.aplicacion.login.LoginUseCase
 import ies.sequeros.com.dam.pmdm.administrador.aplicacion.login.Sesion
 import ies.sequeros.com.dam.pmdm.administrador.ui.login.LoginViewModel
 import ies.sequeros.com.dam.pmdm.administrador.ui.login.LoginScreen
@@ -64,44 +56,25 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
     val dependientesViewModel = viewModel{ DependientesViewModel(
         dependienteRepositorio, almacenImagenes
     )}
-    val productosViewModel = viewModel {
-        ProductosViewModel(
-            productoRepositorio,
-            categoriaRepositorio,
-            almacenImagenes
-        )
-    }
-    val categoriasViewModel = viewModel {
-        CategoriasViewModel(
-            categoriaRepositorio,
-            almacenImagenes
-        )
-    }
-    val pedidosViewModel = viewModel {
-        PedidosViewModel(
-            pedidoRepositorio,
-            productoRepositorio,
-            almacenImagenes
-        )
+
+    val productosViewModel = viewModel { ProductosViewModel(
+        productoRepositorio, categoriaRepositorio, almacenImagenes)}
+
+    val categoriasViewModel = viewModel {CategoriasViewModel(
+            categoriaRepositorio,almacenImagenes)
     }
 
-    // USE CASES TPV
-    val listarCategoriasUseCase = ListarCategoriasUseCase(categoriaRepositorio)
-    val listarProductosUseCase = ListarProductosPorCategoriaUseCase(productoRepositorio)
-    val registrarPedidoUseCase = RegistrarPedidoClienteUseCase(pedidoRepositorio)
-    /*val listarCategoriasUseCase = remember { ListarCategoriasUseCase(categoriaRepositorio) }
-    val listarProductosUseCase = remember { ListarProductosPorCategoriaUseCase(productoRepositorio) }
-    val registrarPedidoUseCase = remember { RegistrarPedidoClienteUseCase(pedidoRepositorio) } */
+    val pedidosViewModel = viewModel {PedidosViewModel(
+            pedidoRepositorio, productoRepositorio,almacenImagenes) }
 
     // VIEW MODELS TPV
-    val tpvViewModel = viewModel { TPVViewModel(registrarPedidoUseCase) }
+    val tpvViewModel = viewModel { TPVViewModel(pedidoRepositorio) }
     val escaparateViewModel = viewModel { 
-        EscaparateViewModel(listarCategoriasUseCase, listarProductosUseCase, almacenImagenes) 
+        EscaparateViewModel(categoriaRepositorio, productoRepositorio, almacenImagenes) 
     }
 
     // LOGIN & SESSION
-    val loginUseCase = remember { LoginUseCase(dependienteRepositorio) }
-    val loginViewModel = viewModel { LoginViewModel(loginUseCase) }
+    val loginViewModel = viewModel { LoginViewModel(dependienteRepositorio) }
 
 
     appViewModel.setWindowsAdatativeInfo( currentWindowAdaptiveInfo())
