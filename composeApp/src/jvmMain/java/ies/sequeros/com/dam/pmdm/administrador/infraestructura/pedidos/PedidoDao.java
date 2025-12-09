@@ -286,7 +286,7 @@ public class PedidoDao implements IDao<Pedido> {
 
             try {
                 c.setAutoCommit(true);
-                c.close();
+                //c.close();
             } catch (SQLException e) {}
         }
     }
@@ -363,7 +363,7 @@ public class PedidoDao implements IDao<Pedido> {
 
             try {
                 c.setAutoCommit(true);
-                c.close();
+               // c.close();
             } catch (SQLException e) {}
         }
     }
@@ -416,7 +416,7 @@ public class PedidoDao implements IDao<Pedido> {
 
             try {
                 c.setAutoCommit(true);
-                c.close();
+                //c.close();
             } catch (SQLException e) {}
         }
         
