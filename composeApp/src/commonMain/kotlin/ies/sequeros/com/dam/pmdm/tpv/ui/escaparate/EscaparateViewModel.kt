@@ -29,6 +29,10 @@ class EscaparateViewModel(
         cargarCategorias()
     }
 
+    fun refreshCategorias() {
+        cargarCategorias()
+    }
+
     private fun cargarCategorias() {
 
         viewModelScope.launch {

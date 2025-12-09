@@ -42,6 +42,12 @@ fun EscaparateTPV(
     onCancelarPedido: () -> Unit,
     onVerCarrito: () -> Unit
 ) {
+    
+    // Recargamos los  datos al entrar
+    androidx.compose.runtime.LaunchedEffect(Unit) {
+        escaparateViewModel.refreshCategorias()
+    }
+    
     val tpvState by tpvViewModel.uiState.collectAsState()
     val escaparateState by escaparateViewModel.uiState.collectAsState()
     
@@ -220,11 +226,19 @@ fun ProductoTPVCard(
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface) // Tema
     ) {
         Column(
-            modifier = Modifier.padding(8.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(8.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Imagen
-            Box(Modifier.size(80.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.secondaryContainer)) {
+            Box(
+                Modifier
+                    .size(80.dp)
+                    .clip(RoundedCornerShape(4.dp))
+                    .background(MaterialTheme.colorScheme.secondaryContainer),
+                contentAlignment = Alignment.Center
+            ) {
                  val imagePath = remember(producto.image_path) { mutableStateOf(producto.image_path) }
                  ImagenDesdePath(imagePath, Res.drawable.plato, Modifier.fillMaxSize())
             }
