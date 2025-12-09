@@ -25,7 +25,7 @@ class ProductoFormViewModel(
                 categoria_id = item?.categoria_id ?: "",
                 name = item?.name ?: "",
                 description = item?.description ?: "",
-                price = item?.price.toString() ?: "",
+                price = item?.price?.toString() ?: "",
                 imagePath = item?.image_path ?: "",
                 enabled = item?.enabled ?:false
             )
