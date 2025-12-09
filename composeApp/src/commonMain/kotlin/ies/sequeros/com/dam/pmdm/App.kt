@@ -96,7 +96,7 @@ fun App( dependienteRepositorio : IDependienteRepositorio,
     // VIEW MODELS TPV
     val tpvViewModel = viewModel { TPVViewModel(registrarPedidoUseCase) }
     val escaparateViewModel = viewModel { 
-        EscaparateViewModel(listarCategoriasUseCase, listarProductosUseCase) 
+        EscaparateViewModel(listarCategoriasUseCase, listarProductosUseCase, almacenImagenes) 
     }
 
     // LOGIN & SESSION

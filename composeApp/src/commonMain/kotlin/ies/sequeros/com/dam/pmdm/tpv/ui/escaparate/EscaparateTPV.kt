@@ -30,6 +30,10 @@ import androidx.compose.ui.unit.dp
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Categoria
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Producto
 import ies.sequeros.com.dam.pmdm.tpv.ui.TPVViewModel
+import ies.sequeros.com.dam.pmdm.commons.ui.ImagenDesdePath
+import vegaburguer.composeapp.generated.resources.Res
+import vegaburguer.composeapp.generated.resources.plato
+import androidx.compose.ui.draw.clip
 
 @Composable
 fun EscaparateTPV(
@@ -219,8 +223,11 @@ fun ProductoTPVCard(
             modifier = Modifier.padding(8.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Placeholder de imagen
-            Box(Modifier.size(80.dp).background(MaterialTheme.colorScheme.secondaryContainer, RoundedCornerShape(4.dp)))
+            // Imagen
+            Box(Modifier.size(80.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.secondaryContainer)) {
+                 val imagePath = remember(producto.image_path) { mutableStateOf(producto.image_path) }
+                 ImagenDesdePath(imagePath, Res.drawable.plato, Modifier.fillMaxSize())
+            }
             
             Spacer(Modifier.height(8.dp))
             Text(producto.name, style = MaterialTheme.typography.titleSmall, maxLines = 1, overflow = TextOverflow.Ellipsis)

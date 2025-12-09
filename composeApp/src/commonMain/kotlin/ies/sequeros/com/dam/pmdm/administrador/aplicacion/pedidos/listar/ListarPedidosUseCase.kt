@@ -46,7 +46,8 @@ class ListarPedidosUseCase(
             // D. Buscar informacion extra que necesitamos del repositorio del producto (Nombre, Imagen)
             val producto = productoRepositorio.getById(linea.productoId)
             val nombreProducto = producto?.name ?: "Producto Desconocido"
-            val imagenProducto = producto?.image_path ?: "" // Si no hay imagen, string vacio
+            val rawImage = producto?.image_path ?: ""
+            val imagenProducto = if(rawImage.isNotEmpty()) almacenDatos.getAppDataDir() + "/productos/" + rawImage else ""
 
             // E. Crear el DTO de la linea con toda la info junta
             val lineaDTO = linea.toDTO(

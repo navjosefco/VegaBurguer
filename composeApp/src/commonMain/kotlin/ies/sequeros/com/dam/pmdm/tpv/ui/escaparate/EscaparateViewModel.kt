@@ -6,6 +6,7 @@ import ies.sequeros.com.dam.pmdm.administrador.modelo.Categoria
 import ies.sequeros.com.dam.pmdm.administrador.modelo.Producto
 import ies.sequeros.com.dam.pmdm.tpv.aplicacion.categorias.listar.ListarCategoriasUseCase
 import ies.sequeros.com.dam.pmdm.tpv.aplicacion.productos.listar.ListarProductosPorCategoriaUseCase
+import ies.sequeros.com.dam.pmdm.commons.infraestructura.AlmacenDatos
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -15,7 +16,8 @@ import kotlinx.coroutines.launch
 class EscaparateViewModel(
 
     private val listarCategoriasUseCase: ListarCategoriasUseCase,
-    private val listarProductosUseCase: ListarProductosPorCategoriaUseCase
+    private val listarProductosUseCase: ListarProductosPorCategoriaUseCase,
+    private val almacenDatos: AlmacenDatos
 
 ) : ViewModel() {
 
@@ -68,7 +70,9 @@ class EscaparateViewModel(
     private suspend fun cargarProductos(categoriaId: String) {
 
         _uiState.update { it.copy(isLoading = true) }
-        val productos = listarProductosUseCase.invoke(categoriaId)
+        val productos = listarProductosUseCase.invoke(categoriaId).map { 
+             if(it.image_path.isNotEmpty()) it.copy(image_path = almacenDatos.getAppDataDir() + "/productos/" + it.image_path) else it
+        }
         _uiState.update { 
             it.copy(
                 productos = productos,
