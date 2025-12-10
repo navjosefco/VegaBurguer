@@ -89,7 +89,7 @@ fun Principal(onAdministrador:()->Unit, onDependiente:()->Unit,onTPV:()->Unit){
                         contentDescription = ""
                     )
                 }
-                Spacer(modifier = Modifier.height(2.dp))
+                /*Spacer(modifier = Modifier.height(2.dp))
                 OutlinedIconButton(onClick = onDependiente,
                     colors = IconButtonDefaults.iconButtonColors(
                         contentColor = MaterialTheme.colorScheme.primary
@@ -101,7 +101,7 @@ fun Principal(onAdministrador:()->Unit, onDependiente:()->Unit,onTPV:()->Unit){
                         imageVector = Icons.Default.Fastfood,
                         contentDescription = ""
                     )
-                }
+                }*/
                 Spacer(modifier = Modifier.height(2.dp))
                 OutlinedIconButton(
                     onClick =  onTPV ,

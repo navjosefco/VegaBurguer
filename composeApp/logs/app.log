@@ -18352,3 +18352,1027 @@ dic 09, 2025 10:44:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestruc
 INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
 dic 09, 2025 10:44:59 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
 INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:50:58 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:03 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:51:03 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:06 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:11 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:13 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:13 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:15 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:18 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:18 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:19 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:51:28 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:52:39 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:54:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 09, 2025 10:54:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:54:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:54:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:54:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 09, 2025 10:54:07 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:54:08 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:54:13 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:54:13 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:54:27 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:54:28 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 10:57:48 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:02:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:02:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:02:20 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:02:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:02:21 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:02:22 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:04:05 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:04:09 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:13 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:14 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:31 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:33 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:33 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:34 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:36 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:36 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:38 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:04:39 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:05:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:29 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:05:29 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:36 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:36 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:39 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:40 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:40 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:05:43 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:16:26 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:31 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:16:31 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:36 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:37 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:16:40 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:50:10 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:15 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:50:15 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:17 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:22 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:22 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:24 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 09, 2025 11:50:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO pedido (id, status, customer_name, total_price, dependiente_id) VALUES (?, ?, ?, ?, ?) | Params: [1]=2d772a04-b910-4722-981c-eef8da9b747b, [2]=PENDIENTE, [3]=dfg, [4]=56.0, [5]=null]
+dic 09, 2025 11:50:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Ejecutando SQL: INSERT INTO linea_pedido (id, pedido_id, producto_id, quantity, unit_price) VALUES (?, ?, ?, ?, ?) | Lineas insertadas: 1
+dic 09, 2025 11:50:32 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao insert
+INFORMACIÓN: Pedido y lineas insertadas correctamente
+dic 09, 2025 11:50:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 09, 2025 11:50:35 P. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=2d772a04-b910-4722-981c-eef8da9b747b]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:07:35 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 12:07:53 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:07:53 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 12:08:01 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao login
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where name=? | Parametros: [nombre=admin]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=2d772a04-b910-4722-981c-eef8da9b747b]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:20:24 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 12:20:33 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 12:20:33 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 12:20:41 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao login
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where name=? | Parametros: [nombre=admin]
+dic 10, 2025 12:20:50 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao update
+INFORMACIÓN: Ejecutando SQL: UPDATE pedido SET status = ?, customer_name = ?, total_price = ?, dependiente_id = ? WHERE id = ? | Params: [1]=CERRADO, [2]=dfg, [3]=56.0, [4]=null, [5]=2d772a04-b910-4722-981c-eef8da9b747b]
+dic 10, 2025 12:20:50 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao update
+INFORMACIÓN: Ejecutando SQL: INSERT INTO linea_pedido (id, pedido_id, producto_id, quantity, unit_price) VALUES (?, ?, ?, ?, ?) | Lineas actualizadas: 1
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=2d772a04-b910-4722-981c-eef8da9b747b]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:14:55 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 10:15:05 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao login
+INFORMACIÓN: Ejecutando SQL: select * from dependiente where name=? | Parametros: [nombre=admin]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=2d772a04-b910-4722-981c-eef8da9b747b]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:15:25 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.dependientes.DependienteDao getAll
+INFORMACIÓN: Ejecutando SQL: select * from dependiente | Parametros: 
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=2d772a04-b910-4722-981c-eef8da9b747b]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=8f51f764-12b0-48fa-906e-ee6877a09a75]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=93c30217-d7a2-47d3-96ec-f66db0a83ca4]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=9ec50e1e-c268-40e8-8787-160b846ce548]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f1a2b3c4-9999-aaaa-bbbb-111111111301]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f2a3b4c5-aaaa-bbbb-cccc-111111111302]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f3a4b5c6-bbbb-cccc-dddd-111111111303]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f4a5b6c7-cccc-dddd-eeee-111111111304]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getLineasPedido
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM linea_pedido WHERE pedido_id = ? | Parametros: [id=f5a6b7c8-dddd-eeee-ffff-111111111305]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.pedidos.PedidoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM pedido | Parametros: 
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e11fc5e9-fed6-4b78-8898-18e9d926ebe7]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=d1e2f3a4-1111-4222-8333-111111111101]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=a4b5c6d7-4444-5555-2666-111111111104]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=f3a4b5c6-3333-4444-1555-111111111103]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=e2f3a4b5-2222-4333-9444-111111111102]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=c6d7e8f9-6666-7777-4888-111111111106]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getById
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto WHERE id = ? | Parametros: [id=b5c6d7e8-5555-6666-3777-111111111105]
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.categorias.CategoriaDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM categoria | Parametros: 
+dic 10, 2025 10:18:22 A. M. ies.sequeros.com.dam.pmdm.administrador.infraestructura.productos.ProductoDao getAll
+INFORMACIÓN: Ejecutando SQL: SELECT * FROM producto | Parametros: 

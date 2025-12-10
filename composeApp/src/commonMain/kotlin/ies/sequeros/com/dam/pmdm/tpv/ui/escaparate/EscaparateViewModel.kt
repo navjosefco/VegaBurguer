@@ -44,15 +44,17 @@ class EscaparateViewModel(
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             
-            val categorias = listarCategoriasUseCase.invoke()
-            
+            val categoriesResolved = listarCategoriasUseCase.invoke().map {
+                if (it.image_path.isNotEmpty()) it.copy(image_path = almacenDatos.getAppDataDir() + "/categorias/" + it.image_path) else it
+            }
+
             // Seleccionamos la primera por defecto si existe
-            val firstCat = categorias.firstOrNull()
-            _uiState.update { 
+            val firstCat = categoriesResolved.firstOrNull()
+            _uiState.update {
                 it.copy(
-                    categorias = categorias, 
+                    categorias = categoriesResolved,
                     selectedCategoria = firstCat
-                ) 
+                )
             }
             
             // Si hay categoría seleccionada, cargamos sus productos inmediatamente

@@ -152,7 +152,7 @@ fun EscaparateTPV(
                     CircularProgressIndicator(Modifier.align(Alignment.Center))
                 } else {
                     LazyVerticalGrid(
-                        columns = GridCells.Adaptive(minSize = 180.dp),
+                        columns = GridCells.Adaptive(minSize = 300.dp),
                         verticalArrangement = Arrangement.spacedBy(8.dp),
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
@@ -206,11 +206,28 @@ fun CategoriaItem(categoria: Categoria, isSelected: Boolean, onClick: () -> Unit
         contentColor = if (isSelected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)
     ) {
-        Text(
-            text = categoria.name,
-            modifier = Modifier.padding(16.dp),
-            fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
-        )
+        Column(
+            modifier = Modifier.padding(8.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Box(
+                modifier = Modifier
+                    .size(120.dp)
+                    .clip(RoundedCornerShape(8.dp))
+                    .background(MaterialTheme.colorScheme.surface)
+            ) {
+                 val imagePath = remember(categoria.image_path) { mutableStateOf(categoria.image_path) }
+                 ImagenDesdePath(imagePath, Res.drawable.plato, Modifier.fillMaxSize())
+            }
+            Spacer(Modifier.height(8.dp))
+            Text(
+                text = categoria.name,
+                fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
+                style = MaterialTheme.typography.titleSmall,
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis
+            )
+        }
     }
 }
 
@@ -223,19 +240,18 @@ fun ProductoTPVCard(
 ) {
     Card(
         modifier = Modifier.fillMaxWidth(),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface) // Tema
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant) // Color solicitado
     ) {
         Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(8.dp),
+            modifier = Modifier.fillMaxWidth(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Imagen
+            // Imagen: Full Width, sin padding lateral
             Box(
                 Modifier
-                    .size(80.dp)
-                    .clip(RoundedCornerShape(4.dp))
+                    .fillMaxWidth()
+                    .height(250.dp) // Altura fija, ancho relleno
                     .background(MaterialTheme.colorScheme.secondaryContainer),
                 contentAlignment = Alignment.Center
             ) {
@@ -243,17 +259,40 @@ fun ProductoTPVCard(
                  ImagenDesdePath(imagePath, Res.drawable.plato, Modifier.fillMaxSize())
             }
             
-            Spacer(Modifier.height(8.dp))
-            Text(producto.name, style = MaterialTheme.typography.titleSmall, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text("${producto.price} €", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
+            // Contenido de texto con padding
+            Column(
+                modifier = Modifier.padding(12.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    producto.name, 
+                    style = MaterialTheme.typography.titleMedium, 
+                    fontWeight = FontWeight.Bold,
+                    maxLines = 1, 
+                    overflow = TextOverflow.Ellipsis
+                )
+                Text(
+                    "${producto.price} €", 
+                    style = MaterialTheme.typography.bodyLarge, 
+                    color = MaterialTheme.colorScheme.primary
+                )
 
-            Spacer(Modifier.height(8.dp))
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                if (cantidadEnCarrito > 0) {
-                    IconButton(onClick = onRemove) { Icon(Icons.Default.Remove, contentDescription = null, tint = MaterialTheme.colorScheme.primary) }
-                    Text(cantidadEnCarrito.toString(), style = MaterialTheme.typography.titleMedium)
+                Spacer(Modifier.height(8.dp))
+                
+                // Botones de acción
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    if (cantidadEnCarrito > 0) {
+                        FilledIconButton(onClick = onRemove, colors = IconButtonDefaults.filledIconButtonColors(containerColor = MaterialTheme.colorScheme.errorContainer)) { 
+                            Icon(Icons.Default.Remove, contentDescription = null, tint = MaterialTheme.colorScheme.onErrorContainer) 
+                        }
+                        Spacer(Modifier.width(8.dp))
+                        Text(cantidadEnCarrito.toString(), style = MaterialTheme.typography.titleLarge)
+                        Spacer(Modifier.width(8.dp))
+                    }
+                    FilledIconButton(onClick = onAdd) { 
+                        Icon(Icons.Default.Add, contentDescription = null) 
+                    }
                 }
-                IconButton(onClick = onAdd) { Icon(Icons.Default.Add, contentDescription = null, tint = MaterialTheme.colorScheme.primary) }
             }
         }
     }
