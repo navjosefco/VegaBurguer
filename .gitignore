@@ -21,4 +21,4 @@ Documentacion
 composeApp/categorias/*.png
 composeApp/dependientes/*.png
 composeApp/productos/*.png
-coposeApp/logs/*.log
+composeApp/logs/*

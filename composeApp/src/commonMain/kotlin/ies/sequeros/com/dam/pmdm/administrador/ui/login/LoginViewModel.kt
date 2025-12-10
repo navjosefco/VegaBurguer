@@ -9,11 +9,15 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
+import ies.sequeros.com.dam.pmdm.administrador.modelo.IDependienteRepositorio
+
 class LoginViewModel(
 
-    private val loginUseCase: LoginUseCase
+    private val dependienteRepositorio: IDependienteRepositorio
 
 ) : ViewModel() {
+
+    private val loginUseCase = LoginUseCase(dependienteRepositorio)
 
     //private val _uiState = MutableStateFlow(LoginState())
     //Borrar esto luego

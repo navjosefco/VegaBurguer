@@ -99,7 +99,7 @@ fun PedidoForm(
                             selected = state.status == "CERRADO",
                             onClick = { viewModel.onStatusChange("CERRADO") }
                         )
-                        Text("Cerrado")
+                        Text("Entregado")
                     }
                 }
             }

@@ -64,7 +64,7 @@ fun PedidoCard (
                 // Chip de estado
                 AssistChip(
                     onClick = {},
-                    label = { Text(item.status) },
+                    label = { Text(if (item.status == "CERRADO") "ENTREGADO" else item.status) },
                     colors = AssistChipDefaults.assistChipColors(
                         containerColor = if(item.status == "PENDIENTE")
                             MaterialTheme.colorScheme.tertiaryContainer

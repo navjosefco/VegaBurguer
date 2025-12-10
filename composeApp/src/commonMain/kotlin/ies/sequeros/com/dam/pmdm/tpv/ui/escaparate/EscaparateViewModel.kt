@@ -13,13 +13,19 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
+import ies.sequeros.com.dam.pmdm.administrador.modelo.ICategoriaRepositorio
+import ies.sequeros.com.dam.pmdm.administrador.modelo.IProductoRepositorio
+
 class EscaparateViewModel(
 
-    private val listarCategoriasUseCase: ListarCategoriasUseCase,
-    private val listarProductosUseCase: ListarProductosPorCategoriaUseCase,
+    private val categoriaRepositorio: ICategoriaRepositorio,
+    private val productoRepositorio: IProductoRepositorio,
     private val almacenDatos: AlmacenDatos
 
 ) : ViewModel() {
+
+    private val listarCategoriasUseCase = ListarCategoriasUseCase(categoriaRepositorio)
+    private val listarProductosUseCase = ListarProductosPorCategoriaUseCase(productoRepositorio)
 
     private val _uiState = MutableStateFlow(EscaparateState())
     val uiState: StateFlow<EscaparateState> = _uiState.asStateFlow()
@@ -38,15 +44,17 @@ class EscaparateViewModel(
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             
-            val categorias = listarCategoriasUseCase.invoke()
-            
+            val categoriesResolved = listarCategoriasUseCase.invoke().map {
+                if (it.image_path.isNotEmpty()) it.copy(image_path = almacenDatos.getAppDataDir() + "/categorias/" + it.image_path) else it
+            }
+
             // Seleccionamos la primera por defecto si existe
-            val firstCat = categorias.firstOrNull()
-            _uiState.update { 
+            val firstCat = categoriesResolved.firstOrNull()
+            _uiState.update {
                 it.copy(
-                    categorias = categorias, 
+                    categorias = categoriesResolved,
                     selectedCategoria = firstCat
-                ) 
+                )
             }
             
             // Si hay categoría seleccionada, cargamos sus productos inmediatamente
